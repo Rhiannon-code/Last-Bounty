@@ -1,0 +1,18 @@
+{
+    "name": "FPSParkour.Movement",
+    "rootNamespace": "FPSParkour.Movement",
+    "references": [
+        "FPSParkour.Core",
+        "FPSParkour.Config",
+        "FPSParkour.Player"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

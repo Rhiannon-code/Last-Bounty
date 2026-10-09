@@ -1,0 +1,22 @@
+{
+    "name": "FPSParkour.Jobs",
+    "rootNamespace": "FPSParkour.Jobs",
+    "references": [
+        "FPSParkour.Core",
+        "FPSParkour.Player",
+        "FPSParkour.Combat",
+        "FPSParkour.AI",
+        "FPSParkour.Bounty",
+        "FPSParkour.Narrative",
+        "FPSParkour.Investigation"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

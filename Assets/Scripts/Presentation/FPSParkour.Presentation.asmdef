@@ -1,0 +1,21 @@
+{
+    "name": "FPSParkour.Presentation",
+    "rootNamespace": "FPSParkour.Presentation",
+    "references": [
+        "FPSParkour.Core",
+        "FPSParkour.Player",
+        "FPSParkour.Movement",
+        "FPSParkour.Combat",
+        "FPSParkour.AI",
+        "UnityEngine.UI"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

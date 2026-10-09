@@ -1,0 +1,8 @@
+{
+    "name": "FPSParkour.World",
+    "rootNamespace": "FPSParkour.World",
+    "references": [ "FPSParkour.Core", "FPSParkour.Narrative", "FPSParkour.AI" ],
+    "includePlatforms": [], "excludePlatforms": [], "allowUnsafeCode": false,
+    "overrideReferences": false, "precompiledReferences": [], "autoReferenced": true,
+    "defineConstraints": [], "versionDefines": [], "noEngineReferences": false
+}

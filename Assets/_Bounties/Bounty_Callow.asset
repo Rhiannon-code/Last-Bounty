@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a02c4d573e9c8aa829bda24c2846058f, type: 3}
+  m_Name: Bounty_Callow
+  m_EditorClassIdentifier: FPSParkour.Bounty::FPSParkour.Bounty.BountyContract
+  id: bounty.callow
+  targetName: CALLOW
+  alias: THE ONES WHO KNOW
+  species: Sivet
+  issuingFactionId: guild
+  charges: Assault, resisting collection.
+  whoTheyActuallyAre: "He was a beam operator's assistant for a guild that ran captures
+    for six years, and he absconded when he worked out that nobody he ever loaded
+    came back.\n\nWhen beaten: \"Count them. Just \u2014 count how many you've done
+    and then tell me where they are. Where are they? Go on. Where are they?\""
+  payoutAlive: 2200
+  availability:
+    RequireAll: []
+    RequireNone: []
+    RequireAny: []
+  flagsOnCapture: []
+  flagsOnKill: []
+  flagsOnRelease: []
+  standingOnCapture: 3
+  standingOnKill: 1
+  standingOnRelease: -2

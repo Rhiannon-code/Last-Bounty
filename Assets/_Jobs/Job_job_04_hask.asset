@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 370ffa92ab89a77cd8ea4f566c8f5051, type: 3}
+  m_Name: Job_job_04_hask
+  m_EditorClassIdentifier: FPSParkour.Jobs::FPSParkour.Jobs.JobDefinition
+  id: job.04.hask
+  title: 'Hard job: Hask'
+  shape: 3
+  contract: {fileID: 11400000, guid: 5d2b6a17bd17e89209c1275fb470f1b7, type: 2}
+  briefing: 'He is not running anywhere. He is sitting in the middle of people who
+    are paid to stop you.
+
+    The guards are not on the contract. He is.'
+  showcases: weapons, Subduable's non-lethal floor, ground-slam, the resolution choice
+    under fire
+  objectives:
+  - Kind: 8
+    Description: Clear the guards
+    Amount: 3
+    Hint: "They go down rather than dying. So does he \u2014 that is the floor, not
+      a difficulty setting."
+  - Kind: 6
+    Description: Put Hask down
+    Amount: 0
+    Hint: 
+  - Kind: 7
+    Description: Choose, and mean it
+    Amount: 0
+    Hint: Alive pays full. Killing pays half. That ordering never changes.
+  failsOn: 0
+  targetMarks:
+  - Slot: 0
+    Value: korrath
+  - Slot: 1
+    Value: heavy
+  - Slot: 2
+    Value: spinal brace
+  - Slot: 3
+    Value: arc coat
+  knownAtStart: 00000000
+  minimumMarksToAccuse: 2
+  availability:
+    RequireAll: []
+    RequireNone: []
+    RequireAny: []
+  flagsOnComplete: []

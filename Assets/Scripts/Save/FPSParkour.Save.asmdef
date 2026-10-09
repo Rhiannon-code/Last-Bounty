@@ -1,0 +1,8 @@
+{
+    "name": "FPSParkour.Save",
+    "rootNamespace": "FPSParkour.Save",
+    "references": [ "FPSParkour.Core" ],
+    "includePlatforms": [], "excludePlatforms": [], "allowUnsafeCode": false,
+    "overrideReferences": false, "precompiledReferences": [], "autoReferenced": true,
+    "defineConstraints": [], "versionDefines": [], "noEngineReferences": false
+}

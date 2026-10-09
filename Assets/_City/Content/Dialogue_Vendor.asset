@@ -1,0 +1,71 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b27d49844be7242b686519318c7bfe24, type: 3}
+  m_Name: Dialogue_Vendor
+  m_EditorClassIdentifier: FPSParkour.Narrative::FPSParkour.Narrative.DialogueGraph
+  id: dlg.informant.vendor
+  entryNodeId: open
+  nodes:
+  - Id: open
+    Speaker: Mother Tace
+    Line: He buys here. Tuesdays, mostly, and he never haggles.
+    Condition:
+      RequireAll: []
+      RequireNone: []
+      RequireAny: []
+    SetFlags: []
+    NextNodeId: 
+    Choices:
+    - Text: What does he look like buying?
+      NextNodeId: tell
+      Condition:
+        RequireAll: []
+        RequireNone: []
+        RequireAny: []
+      SetFlags:
+      - clue.vendor
+    - Text: Say it or I make it a problem.
+      NextNodeId: tell
+      Condition:
+        RequireAll: []
+        RequireNone: []
+        RequireAny: []
+      SetFlags:
+      - clue.vendor
+      - clue.vendor.leaned
+    - Text: Forget it.
+      NextNodeId: off
+      Condition:
+        RequireAll: []
+        RequireNone: []
+        RequireAny: []
+      SetFlags: []
+  - Id: tell
+    Speaker: Mother Tace
+    Line: Head and a half over me and half as heavy. You'll know.
+    Condition:
+      RequireAll: []
+      RequireNone: []
+      RequireAny: []
+    SetFlags: []
+    NextNodeId: 
+    Choices: []
+  - Id: off
+    Speaker: Mother Tace
+    Line: Thought not.
+    Condition:
+      RequireAll: []
+      RequireNone: []
+      RequireAny: []
+    SetFlags: []
+    NextNodeId: 
+    Choices: []

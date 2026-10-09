@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6e1779a4275a1059c9f1949f5a87f4, type: 3}
+  m_Name: Perk_ReflexBooster
+  m_EditorClassIdentifier: FPSParkour.Perks::FPSParkour.Perks.PerkDefinition
+  displayName: Reflex Booster
+  description: Pre-fires the correction before you have decided to make it.
+  icon: {fileID: 0}
+  category: 1
+  cost: 2
+  tier: 1
+  prerequisites:
+  - {fileID: 11400000, guid: ca3345e9c0d015eb78aa962074dfe56f, type: 2}
+  effects:
+  - kind: 0
+    ability: 8
+    playerStat: 0
+    weaponStat: 0
+    op: 1
+    value: 0.1
+  - kind: 1
+    ability: 0
+    playerStat: 8
+    weaponStat: 0
+    op: 0
+    value: 1

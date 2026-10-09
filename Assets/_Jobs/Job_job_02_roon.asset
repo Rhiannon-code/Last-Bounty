@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 370ffa92ab89a77cd8ea4f566c8f5051, type: 3}
+  m_Name: Job_job_02_roon
+  m_EditorClassIdentifier: FPSParkour.Jobs::FPSParkour.Jobs.JobDefinition
+  id: job.02.roon
+  title: 'Quiet job: Ilva Roon'
+  shape: 2
+  contract: {fileID: 11400000, guid: 569785d98fb9b9d82ae353cbc8207ff2, type: 2}
+  briefing: 'She has people watching for exactly this. Identify her without the arc
+    noticing.
+
+    Every scan and every question raises heat. Let it max and she
+    is gone.'
+  showcases: district heat as a fail state, scanning at range and from above
+  objectives:
+  - Kind: 1
+    Description: Learn three of her marks
+    Amount: 3
+    Hint: Scanning from a rooftop still works and nobody up there is watching you
+      do it.
+  - Kind: 2
+    Description: Identify her
+    Amount: 0
+    Hint: 
+  - Kind: 7
+    Description: Close the contract
+    Amount: 0
+    Hint: 
+  failsOn: 1
+  targetMarks:
+  - Slot: 0
+    Value: threl
+  - Slot: 1
+    Value: average
+  - Slot: 2
+    Value: clinic brace
+  - Slot: 3
+    Value: work drab
+  knownAtStart: 00000000
+  minimumMarksToAccuse: 2
+  availability:
+    RequireAll: []
+    RequireNone: []
+    RequireAny: []
+  flagsOnComplete: []

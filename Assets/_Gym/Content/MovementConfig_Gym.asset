@@ -1,0 +1,71 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d2fa89ea5ce7a858bc52095ac952cb6, type: 3}
+  m_Name: MovementConfig_Gym
+  m_EditorClassIdentifier: FPSParkour.Config::FPSParkour.Config.MovementConfig
+  walkSpeed: 6
+  sprintSpeed: 9.5
+  crouchSpeed: 3.5
+  groundAccel: 90
+  groundFriction: 12
+  airAccel: 45
+  airStrafeMaxSpeed: 1.4
+  gravity: -24
+  maxFallSpeed: -55
+  jumpHeight: 1.6
+  coyoteTime: 0.12
+  jumpBufferTime: 0.12
+  standHeight: 1.8
+  crouchHeight: 1
+  crouchLerpSpeed: 12
+  slideEntrySpeedBoost: 4
+  slideFriction: 3.5
+  slideMinSpeed: 4
+  slideSteerAccel: 14
+  slideMaxTime: 1.6
+  slopeSlideAccel: 20
+  wallCheckDistance: 0.75
+  wallRunMinEntrySpeed: 4
+  wallRunSpeed: 9.5
+  wallRunMaxTime: 1.8
+  wallRunGravity: 6
+  wallStickForce: 6
+  wallRunCameraTilt: 15
+  wallRunCooldown: 0.25
+  wallJumpUp: 6.5
+  wallJumpSide: 8
+  wallJumpForward: 3
+  maxAirJumps: 1
+  airJumpHeight: 1.4
+  dashSpeed: 22
+  dashDuration: 0.16
+  dashCharges: 1
+  dashRechargeTime: 1.6
+  dashMomentumKeep: 0.6
+  slamSpeed: 42
+  slamLandBoost: 6
+  slamMinAirTime: 0.15
+  grappleRange: 35
+  grappleReelSpeed: 12
+  grappleSpring: 40
+  grappleDamper: 4
+  grappleMaxSpeed: 28
+  grappleMinRope: 3
+  grappleMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  mantleMaxHeight: 2.2
+  mantleForwardReach: 1
+  mantleDuration: 0.28
+  worldMask:
+    serializedVersion: 2
+    m_Bits: 4294967295

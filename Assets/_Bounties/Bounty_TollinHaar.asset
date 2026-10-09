@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a02c4d573e9c8aa829bda24c2846058f, type: 3}
+  m_Name: Bounty_TollinHaar
+  m_EditorClassIdentifier: FPSParkour.Bounty::FPSParkour.Bounty.BountyContract
+  id: bounty.tollin.haar
+  targetName: TOLLIN HAAR
+  alias: THE WILLING
+  species: Sivet
+  issuingFactionId: guild
+  charges: Nothing. He filed on himself.
+  whoTheyActuallyAre: 'He is Marked, he has waited nineteen years, and the queue
+    is long, and he has worked out that the boards are faster than the Choir.
+
+
+    When
+    beaten: (He isn''t fighting. He''s waiting, with his coat folded.) "Do you need
+    me to sign anything?"'
+  payoutAlive: 2600
+  availability:
+    RequireAll: []
+    RequireNone: []
+    RequireAny: []
+  flagsOnCapture: []
+  flagsOnKill: []
+  flagsOnRelease: []
+  standingOnCapture: 3
+  standingOnKill: 1
+  standingOnRelease: -2

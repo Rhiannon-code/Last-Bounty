@@ -1,0 +1,54 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 370ffa92ab89a77cd8ea4f566c8f5051, type: 3}
+  m_Name: Job_job_03_oko
+  m_EditorClassIdentifier: FPSParkour.Jobs::FPSParkour.Jobs.JobDefinition
+  id: job.03.oko
+  title: 'Roof job: Brann Oko'
+  shape: 1
+  contract: {fileID: 11400000, guid: bead6991156c32135b6f9782b3be4580, type: 2}
+  briefing: 'Somebody warned him. He is already on the roofs and already moving.
+
+    He
+    can climb a fire escape and dive off an edge. He cannot do what you can do.'
+  showcases: the roof network, grapple ladder, wall-run, the runner's drop links
+  objectives:
+  - Kind: 4
+    Description: Get onto the roof network
+    Amount: 18
+    Hint: Fire escape, scaffold, or grapple a boom. The booms go all the way up.
+  - Kind: 5
+    Description: Snare him up there
+    Amount: 0
+    Hint: He drops to the street when he is cornered. Going over the top is faster
+      than following.
+  - Kind: 7
+    Description: Close the contract
+    Amount: 0
+    Hint: 
+  failsOn: 2
+  targetMarks:
+  - Slot: 0
+    Value: sivet
+  - Slot: 1
+    Value: heavy
+  - Slot: 2
+    Value: hauler arm
+  - Slot: 3
+    Value: sump-stained coat
+  knownAtStart: 00000000
+  minimumMarksToAccuse: 2
+  availability:
+    RequireAll: []
+    RequireNone: []
+    RequireAny: []
+  flagsOnComplete: []

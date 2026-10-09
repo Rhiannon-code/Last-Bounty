@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 370ffa92ab89a77cd8ea4f566c8f5051, type: 3}
+  m_Name: Job_job_05_marrow
+  m_EditorClassIdentifier: FPSParkour.Jobs::FPSParkour.Jobs.JobDefinition
+  id: job.05.marrow
+  title: 'Long job: Eska Marrow'
+  shape: 0
+  contract: {fileID: 11400000, guid: bf43634537ea24f949ee3c04cc784013, type: 2}
+  briefing: Four marks, and the board gave you one. Get it wrong and she knows you
+    are here.
+  showcases: "the whole loop at depth \u2014 one wrong accusation ends it"
+  objectives:
+  - Kind: 1
+    Description: Work out three more marks
+    Amount: 4
+    Hint: 
+  - Kind: 2
+    Description: Accuse the right person
+    Amount: 0
+    Hint: There is no second chance to be quiet about this one.
+  - Kind: 3
+    Description: Run her down
+    Amount: 0
+    Hint: 
+  - Kind: 6
+    Description: Put her down
+    Amount: 0
+    Hint: 
+  - Kind: 7
+    Description: Close the contract
+    Amount: 0
+    Hint: 
+  failsOn: 3
+  targetMarks:
+  - Slot: 0
+    Value: threl
+  - Slot: 1
+    Value: tall
+  - Slot: 2
+    Value: burn-scar rig
+  - Slot: 3
+    Value: vendor apron
+  knownAtStart: 00000000
+  minimumMarksToAccuse: 2
+  availability:
+    RequireAll: []
+    RequireNone: []
+    RequireAny: []
+  flagsOnComplete: []

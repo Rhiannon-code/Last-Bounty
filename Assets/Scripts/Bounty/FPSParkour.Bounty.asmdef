@@ -1,0 +1,21 @@
+{
+    "name": "FPSParkour.Bounty",
+    "rootNamespace": "FPSParkour.Bounty",
+    "references": [
+        "FPSParkour.Core",
+        "FPSParkour.Narrative",
+        "FPSParkour.Player",
+        "FPSParkour.Combat",
+        "FPSParkour.AI",
+        "FPSParkour.Perks"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

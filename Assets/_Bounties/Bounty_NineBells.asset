@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a02c4d573e9c8aa829bda24c2846058f, type: 3}
+  m_Name: Bounty_NineBells
+  m_EditorClassIdentifier: FPSParkour.Bounty::FPSParkour.Bounty.BountyContract
+  id: bounty.nine.bells
+  targetName: NINE BELLS
+  alias: THE DUAT-BORN
+  species: Duat-born
+  issuingFactionId: guild
+  charges: Illegal broadcast.
+  whoTheyActuallyAre: 'Runs a music station out of a dead relay. The player has been
+    hearing it in the background of the market since Chapter 2 without knowing where
+    it comes from.
+
+
+    When beaten: "Who''s going to play it if I go?"'
+  payoutAlive: 1500
+  availability:
+    RequireAll: []
+    RequireNone: []
+    RequireAny: []
+  flagsOnCapture: []
+  flagsOnKill: []
+  flagsOnRelease: []
+  standingOnCapture: 3
+  standingOnKill: 1
+  standingOnRelease: -2

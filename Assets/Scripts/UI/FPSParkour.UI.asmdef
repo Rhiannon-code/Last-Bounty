@@ -1,0 +1,12 @@
+{
+    "name": "FPSParkour.UI",
+    "rootNamespace": "FPSParkour.UI",
+    "references": [
+        "FPSParkour.Core", "FPSParkour.Player", "FPSParkour.Combat", "FPSParkour.Inventory",
+        "FPSParkour.Perks", "FPSParkour.Narrative", "FPSParkour.Bounty", "FPSParkour.Movement",
+        "FPSParkour.Investigation", "FPSParkour.Jobs", "UnityEngine.UI"
+    ],
+    "includePlatforms": [], "excludePlatforms": [], "allowUnsafeCode": false,
+    "overrideReferences": false, "precompiledReferences": [], "autoReferenced": true,
+    "defineConstraints": [], "versionDefines": [], "noEngineReferences": false
+}

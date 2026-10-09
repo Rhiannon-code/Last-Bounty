@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a02c4d573e9c8aa829bda24c2846058f, type: 3}
+  m_Name: Bounty_VoskIlo
+  m_EditorClassIdentifier: FPSParkour.Bounty::FPSParkour.Bounty.BountyContract
+  id: bounty.vosk.ilo
+  targetName: VOSK ILO
+  alias: THE PETTY
+  species: Threl
+  issuingFactionId: guild
+  charges: Forgery.
+  whoTheyActuallyAre: "He forges travel documents for a destination that does not
+    exist, and sells them to people who need to believe there is somewhere to go.
+    His customers know. They buy them anyway.\n\nWhen beaten: \"They know it isn't
+    real. They pay anyway. That's not fraud, that's \u2014 I don't know what that
+    is.\""
+  payoutAlive: 1300
+  availability:
+    RequireAll: []
+    RequireNone: []
+    RequireAny: []
+  flagsOnCapture: []
+  flagsOnKill: []
+  flagsOnRelease: []
+  standingOnCapture: 3
+  standingOnKill: 1
+  standingOnRelease: -2

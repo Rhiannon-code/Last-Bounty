@@ -1,0 +1,1646 @@
+[UnityConnectServicesConfig] Local config successfully read: "/usr/share/unity3d/config/services-config.json"
+[UnityConnectServicesConfig] Service configuration:
+    "servicesConfigBaseUrl": "",
+    "disableServicesWindow": false,
+    "disableUserLogin": false,
+    "entitlementCacheTimeoutInSeconds": 60,
+    "clientConnectTimeoutSec": 60,
+    "clientHandshakeTimeoutSec": 30,
+    "clientResolveEntitlementsTimeoutSec": 30,
+    "clientUpdateLicenseTimeoutSec": 30,
+    "licensingServiceBaseUrl": "",
+    "enableProxyAutoconfig": "false"
+
+Unity Editor version:    6000.3.7f1 (696ec25a53d1)
+Branch:                  6000.3/staging
+Build type:              Release
+Batch mode:              YES
+System name:             Linux
+Distro version:          #1 SMP PREEMPT_DYNAMIC Sat, 03 Oct 2026 18:34:55 +0000
+Kernel version:          7.2.9-1-cachyos
+Architecture:            x86_64
+Window Protocol:         Wayland (XWayland)
+Available memory:        31994 MB
+Date:                    2026-10-09T09:44:58Z
+[Licensing::Module] Trying to connect to existing licensing client channel...
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-rhiannon" at "2026-10-09T09:44:58.175964Z"
+[SignatureVerifier] Application signature verification not supported on this platform.
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.17.4+4293ba1
+  Session Id:              323fdd38325c41aaa9acc531c75527c6
+  Correlation Id:          77f3d1ecadfc8cdf43488afae2fc3c5c
+  External correlation Id: 8723910397567908392
+  Machine Id:              aqLECdqKQb+M0aWhViio4N/1eLE=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-rhiannon" (connect: 0.00s, validation: 0.00s, handshake: 0.00s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-rhiannon-notifications" at "2026-10-09T09:44:58.176868Z"
+[Licensing::Module] Licensing Background thread has ended after 0.00s
+Selected window backend: (null) 
+Desktop is 4260 x 3640 @ 60 Hz
+Initialize udev device monitor.
+
+COMMAND LINE ARGUMENTS:
+unityhub-unity-editor-6000.3.7f1
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/home/rhiannon/Prey 2 Project
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+44621
+-licensingIpc
+LicenseClient-rhiannon
+-job-worker-count
+11
+-background-job-worker-count
+8
+-gc-helper-count
+1
+Successfully changed project path to: /home/rhiannon/Prey 2 Project
+/home/rhiannon/Prey 2 Project
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [140498718186624]  Target information:
+
+Player connection [140498718186624]  * "[IP] 192.168.1.16 [Port] 0 [Flags] 2 [Guid] 4129732903 [EditorId] 4129732903 [Version] 1048832 [Id] LinuxEditor(16,192.168.1.16) [Debug] 1 [PackageName] LinuxEditor [ProjectName] Editor" 
+
+Player connection [140498718186624]  * "[IP] 10.10.20.2 [Port] 0 [Flags] 2 [Guid] 4129732903 [EditorId] 4129732903 [Version] 1048832 [Id] LinuxEditor(16,192.168.1.16) [Debug] 1 [PackageName] LinuxEditor [ProjectName] Editor" 
+
+Player connection [140498718186624] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [140498718186624] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 11
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 1.06 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.3.7f1 (696ec25a53d1)
+[Subsystems] Discovering subsystems at path /home/rhiannon/Unity/Hub/Editor/6000.3.7f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /home/rhiannon/Prey 2 Project/Assets
+GfxDevice: creating device client; kGfxThreadingModeThreaded
+[vulkan] LoadVulkanLibrary libvulkan.so.1[vulkan] Loaded instance function vkGetInstanceProcAddr
+[vulkan] Loaded instance function vkGetInstanceProcAddr
+[vulkan] Loaded instance function vkCreateInstance
+[vulkan] Loaded instance function vkEnumerateInstanceExtensionProperties
+[vulkan] Loaded instance function vkEnumerateInstanceLayerProperties
+[vulkan] Loaded instance function vkEnumerateInstanceVersion
+[Vulkan init] extensions: count=26
+[Vulkan init] extensions: name=VK_EXT_acquire_drm_display [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_EXT_acquire_xlib_display [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_EXT_debug_report [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_EXT_debug_utils [enabled=1, external=0]
+[Vulkan init] extensions: name=VK_EXT_direct_mode_display [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_EXT_display_surface_counter [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_EXT_headless_surface [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_EXT_layer_settings [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_EXT_surface_maintenance1 [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_EXT_swapchain_colorspace [enabled=1, external=0]
+[Vulkan init] extensions: name=VK_KHR_device_group_creation [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_KHR_display [enabled=1, external=0]
+[Vulkan init] extensions: name=VK_KHR_external_fence_capabilities [enabled=1, external=0]
+[Vulkan init] extensions: name=VK_KHR_external_memory_capabilities [enabled=1, external=0]
+[Vulkan init] extensions: name=VK_KHR_external_semaphore_capabilities [enabled=1, external=0]
+[Vulkan init] extensions: name=VK_KHR_get_display_properties2 [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_KHR_get_physical_device_properties2 [enabled=1, external=0]
+[Vulkan init] extensions: name=VK_KHR_get_surface_capabilities2 [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_KHR_portability_enumeration [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_KHR_surface [enabled=1, external=0]
+[Vulkan init] extensions: name=VK_KHR_surface_maintenance1 [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_KHR_surface_protected_capabilities [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_KHR_wayland_surface [enabled=1, external=0]
+[Vulkan init] extensions: name=VK_KHR_xcb_surface [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_KHR_xlib_surface [enabled=1, external=0]
+[Vulkan init] extensions: name=VK_LUNARG_direct_driver_loading [enabled=0, external=0]
+[vulkan] Loaded instance function vkDestroyInstance
+[vulkan] Loaded instance function vkGetPhysicalDeviceProperties
+[vulkan] Loaded instance function vkEnumeratePhysicalDevices
+[Vulkan init] SelectPhysicalDevice requestedDeviceIndex=-1 xrDevice=(nil)
+[Vulkan init] Physical Device 0x555b799737e0 [0]: "AMD Radeon RX 6950 XT (RADV NAVI21)" deviceType=2 vendorID=1002 deviceID=73a5
+Vulkan detection: 2
+[Vulkan init] extensions: count=26
+[Vulkan init] extensions: name=VK_EXT_acquire_drm_display [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_EXT_acquire_xlib_display [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_EXT_debug_report [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_EXT_debug_utils [enabled=1, external=0]
+[Vulkan init] extensions: name=VK_EXT_direct_mode_display [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_EXT_display_surface_counter [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_EXT_headless_surface [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_EXT_layer_settings [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_EXT_surface_maintenance1 [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_EXT_swapchain_colorspace [enabled=1, external=0]
+[Vulkan init] extensions: name=VK_KHR_device_group_creation [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_KHR_display [enabled=1, external=0]
+[Vulkan init] extensions: name=VK_KHR_external_fence_capabilities [enabled=1, external=0]
+[Vulkan init] extensions: name=VK_KHR_external_memory_capabilities [enabled=1, external=0]
+[Vulkan init] extensions: name=VK_KHR_external_semaphore_capabilities [enabled=1, external=0]
+[Vulkan init] extensions: name=VK_KHR_get_display_properties2 [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_KHR_get_physical_device_properties2 [enabled=1, external=0]
+[Vulkan init] extensions: name=VK_KHR_get_surface_capabilities2 [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_KHR_portability_enumeration [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_KHR_surface [enabled=1, external=0]
+[Vulkan init] extensions: name=VK_KHR_surface_maintenance1 [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_KHR_surface_protected_capabilities [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_KHR_wayland_surface [enabled=1, external=0]
+[Vulkan init] extensions: name=VK_KHR_xcb_surface [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_KHR_xlib_surface [enabled=1, external=0]
+[Vulkan init] extensions: name=VK_LUNARG_direct_driver_loading [enabled=0, external=0]
+[vulkan] Loaded instance function vkDestroyInstance
+[vulkan] Loaded instance function vkGetPhysicalDeviceProperties
+[vulkan] Loaded instance function vkEnumeratePhysicalDevices
+[vulkan] Loaded instance function vkGetDeviceProcAddr
+[vulkan] Loaded instance function vkGetPhysicalDeviceFeatures
+[vulkan] Loaded instance function vkGetPhysicalDeviceFormatProperties
+[vulkan] Loaded instance function vkGetPhysicalDeviceImageFormatProperties
+[vulkan] Loaded instance function vkGetPhysicalDeviceQueueFamilyProperties
+[vulkan] Loaded instance function vkGetPhysicalDeviceMemoryProperties
+[vulkan] Loaded instance function vkCreateDevice
+[vulkan] Loaded instance function vkEnumerateDeviceExtensionProperties
+[vulkan] Loaded instance function vkEnumerateDeviceLayerProperties
+[vulkan] Loaded instance function vkGetPhysicalDeviceSparseImageFormatProperties
+[vulkan] Loaded instance function vkDestroySurfaceKHR
+[vulkan] Loaded instance function vkGetPhysicalDeviceSurfaceSupportKHR
+[vulkan] Loaded instance function vkGetPhysicalDeviceSurfaceCapabilitiesKHR
+[vulkan] Loaded instance function vkGetPhysicalDeviceSurfaceFormatsKHR
+[vulkan] Loaded instance function vkGetPhysicalDeviceSurfacePresentModesKHR
+[vulkan] Loaded instance function vkCreateSwapchainKHR
+[vulkan] Loaded instance function vkDestroySwapchainKHR
+[vulkan] Loaded instance function vkGetSwapchainImagesKHR
+[vulkan] Loaded instance function vkAcquireNextImageKHR
+[vulkan] Loaded instance function vkQueuePresentKHR
+[vulkan] Loaded instance function vkGetPhysicalDeviceDisplayPropertiesKHR
+[vulkan] Loaded instance function vkGetPhysicalDeviceDisplayPlanePropertiesKHR
+[vulkan] Loaded instance function vkGetDisplayPlaneSupportedDisplaysKHR
+[vulkan] Loaded instance function vkGetDisplayModePropertiesKHR
+[vulkan] Loaded instance function vkCreateDisplayModeKHR
+[vulkan] Loaded instance function vkGetDisplayPlaneCapabilitiesKHR
+[vulkan] Loaded instance function vkCreateDisplayPlaneSurfaceKHR
+[vulkan] Loaded instance function vkCreateSharedSwapchainsKHR
+[vulkan] Loaded instance function vkCreateXlibSurfaceKHR
+[vulkan] Loaded instance function vkGetPhysicalDeviceXlibPresentationSupportKHR
+[vulkan] Loaded instance function vkSetHdrMetadataEXT
+[vulkan] Loaded instance function vkGetPhysicalDeviceFeatures2KHR
+[vulkan] Loaded instance function vkGetPhysicalDeviceProperties2KHR
+[vulkan] Loaded instance function vkGetPhysicalDeviceFormatProperties2KHR
+[vulkan] Loaded instance function vkGetPhysicalDeviceImageFormatProperties2KHR
+[vulkan] Loaded instance function vkGetPhysicalDeviceQueueFamilyProperties2KHR
+[vulkan] Loaded instance function vkGetPhysicalDeviceMemoryProperties2KHR
+[vulkan] Loaded instance function vkGetPhysicalDeviceSparseImageFormatProperties2KHR
+[vulkan] Loaded instance function vkGetSemaphoreFdKHR
+[vulkan] Loaded instance function vkImportSemaphoreFdKHR
+[vulkan] Loaded instance function vkGetFenceFdKHR
+[vulkan] Loaded instance function vkImportFenceFdKHR
+[vulkan] Loaded instance function vkCreateSamplerYcbcrConversionKHR
+[vulkan] Loaded instance function vkDestroySamplerYcbcrConversionKHR
+[vulkan] Loaded instance function vkBindBufferMemory2KHR
+[vulkan] Loaded instance function vkBindImageMemory2KHR
+[vulkan] Loaded instance function vkWaitForPresentKHR
+[vulkan] Loaded instance function vkGetPhysicalDeviceExternalSemaphorePropertiesKHR
+[vulkan] Loaded instance function vkGetPhysicalDeviceExternalFencePropertiesKHR
+[vulkan] Loaded instance function vkGetPhysicalDeviceFragmentShadingRatesKHR
+[vulkan] Loaded instance function vkSetDebugUtilsObjectNameEXT
+[vulkan] Loaded instance function vkSetDebugUtilsObjectTagEXT
+[vulkan] Loaded instance function vkQueueBeginDebugUtilsLabelEXT
+[vulkan] Loaded instance function vkQueueEndDebugUtilsLabelEXT
+[vulkan] Loaded instance function vkQueueInsertDebugUtilsLabelEXT
+[vulkan] Loaded instance function vkCmdBeginDebugUtilsLabelEXT
+[vulkan] Loaded instance function vkCmdEndDebugUtilsLabelEXT
+[vulkan] Loaded instance function vkCmdInsertDebugUtilsLabelEXT
+[Vulkan init] SelectPhysicalDevice requestedDeviceIndex=-1 xrDevice=(nil)
+[Vulkan init] Physical Device 0x555b799f8fd0 [0]: "AMD Radeon RX 6950 XT (RADV NAVI21)" deviceType=2 vendorID=1002 deviceID=73a5
+[Vulkan init] Selected physical device 0x555b799f8fd0
+[Vulkan init] Graphics queue count=1
+[Vulkan init] extensions: count=245
+[Vulkan init] extensions: name=VK_AMD_buffer_marker [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_AMD_device_coherent_memory [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_AMD_draw_indirect_count [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_AMD_gcn_shader [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_AMD_gpu_shader_half_float [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_AMD_gpu_shader_int16 [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_AMD_memory_overallocation_behavior [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_AMD_mixed_attachment_samples [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_AMD_shader_ballot [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_AMD_shader_core_properties [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_AMD_shader_core_properties2 [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_AMD_shader_early_and_late_fragment_tests [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_AMD_shader_explicit_vertex_parameter [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_AMD_shader_fragment_mask [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_AMD_shader_image_load_store_lod [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_AMD_shader_trinary_minmax [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_AMD_texture_gather_bias_lod [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_EXT_4444_formats [enabled=1, external=0]
+[Vulkan init] extensions: name=VK_EXT_attachment_feedback_loop_dynamic_state [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_EXT_attachment_feedback_loop_layout [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_EXT_border_color_swizzle [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_EXT_buffer_device_address [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_EXT_calibrated_timestamps [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_EXT_color_write_enable [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_EXT_conditional_rendering [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_EXT_conservative_rasterization [enabled=1, external=0]
+[Vulkan init] extensions: name=VK_EXT_custom_border_color [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_EXT_custom_resolve [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_EXT_depth_bias_control [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_EXT_depth_clamp_control [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_EXT_depth_clamp_zero_one [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_EXT_depth_clip_control [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_EXT_depth_clip_enable [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_EXT_depth_range_unrestricted [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_EXT_descriptor_buffer [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_EXT_descriptor_heap [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_EXT_descriptor_indexing [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_EXT_device_address_binding_report [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_EXT_device_fault [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_EXT_device_generated_commands [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_EXT_device_memory_report [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_EXT_discard_rectangles [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_EXT_display_control [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_EXT_dynamic_rendering_unused_attachments [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_EXT_extended_dynamic_state [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_EXT_extended_dynamic_state2 [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_EXT_extended_dynamic_state3 [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_EXT_external_memory_acquire_unmodified [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_EXT_external_memory_dma_buf [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_EXT_external_memory_host [enabled=1, external=0]
+[Vulkan init] extensions: name=VK_EXT_fragment_shader_interlock [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_EXT_global_priority [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_EXT_global_priority_query [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_EXT_graphics_pipeline_library [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_EXT_hdr_metadata [enabled=1, external=0]
+[Vulkan init] extensions: name=VK_EXT_host_image_copy [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_EXT_host_query_reset [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_EXT_image_2d_view_of_3d [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_EXT_image_compression_control [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_EXT_image_compression_control_swapchain [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_EXT_image_drm_format_modifier [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_EXT_image_robustness [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_EXT_image_sliced_view_of_3d [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_EXT_image_view_min_lod [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_EXT_index_type_uint8 [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_EXT_inline_uniform_block [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_EXT_legacy_vertex_attributes [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_EXT_line_rasterization [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_EXT_load_store_op_none [enabled=1, external=0]
+[Vulkan init] extensions: name=VK_EXT_map_memory_placed [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_EXT_memory_budget [enabled=1, external=0]
+[Vulkan init] extensions: name=VK_EXT_memory_priority [enabled=1, external=0]
+[Vulkan init] extensions: name=VK_EXT_mesh_shader [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_EXT_multi_draw [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_EXT_mutable_descriptor_type [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_EXT_nested_command_buffer [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_EXT_non_seamless_cube_map [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_EXT_pci_bus_info [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_EXT_physical_device_drm [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_EXT_pipeline_creation_cache_control [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_EXT_pipeline_creation_feedback [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_EXT_pipeline_library_group_handles [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_EXT_pipeline_robustness [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_EXT_post_depth_coverage [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_EXT_present_timing [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_EXT_primitive_restart_index [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_EXT_primitive_topology_list_restart [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_EXT_primitives_generated_query [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_EXT_private_data [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_EXT_provoking_vertex [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_EXT_queue_family_foreign [enabled=1, external=0]
+[Vulkan init] extensions: name=VK_EXT_robustness2 [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_EXT_sample_locations [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_EXT_sampler_filter_minmax [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_EXT_scalar_block_layout [enabled=1, external=0]
+[Vulkan init] extensions: name=VK_EXT_separate_stencil_usage [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_EXT_shader_atomic_float [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_EXT_shader_atomic_float2 [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_EXT_shader_demote_to_helper_invocation [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_EXT_shader_image_atomic_int64 [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_EXT_shader_module_identifier [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_EXT_shader_object [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_EXT_shader_replicated_composites [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_EXT_shader_stencil_export [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_EXT_shader_subgroup_ballot [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_EXT_shader_subgroup_vote [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_EXT_shader_uniform_buffer_unsized_array [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_EXT_shader_viewport_index_layer [enabled=1, external=0]
+[Vulkan init] extensions: name=VK_EXT_subgroup_size_control [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_EXT_swapchain_maintenance1 [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_EXT_texel_buffer_alignment [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_EXT_tooling_info [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_EXT_transform_feedback [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_EXT_vertex_attribute_divisor [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_EXT_vertex_input_dynamic_state [enabled=1, external=0]
+[Vulkan init] extensions: name=VK_EXT_ycbcr_2plane_444_formats [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_EXT_ycbcr_image_arrays [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_EXT_zero_initialize_device_memory [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_GOOGLE_decorate_string [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_GOOGLE_hlsl_functionality1 [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_GOOGLE_user_type [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_INTEL_shader_integer_functions2 [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_KHR_16bit_storage [enabled=1, external=0]
+[Vulkan init] extensions: name=VK_KHR_8bit_storage [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_KHR_acceleration_structure [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_KHR_bind_memory2 [enabled=1, external=0]
+[Vulkan init] extensions: name=VK_KHR_buffer_device_address [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_KHR_calibrated_timestamps [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_KHR_compute_shader_derivatives [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_KHR_copy_commands2 [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_KHR_copy_memory_indirect [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_KHR_create_renderpass2 [enabled=1, external=0]
+[Vulkan init] extensions: name=VK_KHR_dedicated_allocation [enabled=1, external=0]
+[Vulkan init] extensions: name=VK_KHR_deferred_host_operations [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_KHR_depth_clamp_zero_one [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_KHR_depth_stencil_resolve [enabled=1, external=0]
+[Vulkan init] extensions: name=VK_KHR_descriptor_update_template [enabled=1, external=0]
+[Vulkan init] extensions: name=VK_KHR_device_address_commands [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_KHR_device_fault [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_KHR_device_group [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_KHR_draw_indirect_count [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_KHR_driver_properties [enabled=1, external=0]
+[Vulkan init] extensions: name=VK_KHR_dynamic_rendering [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_KHR_dynamic_rendering_local_read [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_KHR_extended_flags [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_KHR_external_fence [enabled=1, external=0]
+[Vulkan init] extensions: name=VK_KHR_external_fence_fd [enabled=1, external=0]
+[Vulkan init] extensions: name=VK_KHR_external_memory [enabled=1, external=0]
+[Vulkan init] extensions: name=VK_KHR_external_memory_fd [enabled=1, external=0]
+[Vulkan init] extensions: name=VK_KHR_external_semaphore [enabled=1, external=0]
+[Vulkan init] extensions: name=VK_KHR_external_semaphore_fd [enabled=1, external=0]
+[Vulkan init] extensions: name=VK_KHR_format_feature_flags2 [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_KHR_fragment_shader_barycentric [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_KHR_fragment_shading_rate [enabled=1, external=0]
+[Vulkan init] extensions: name=VK_KHR_get_memory_requirements2 [enabled=1, external=0]
+[Vulkan init] extensions: name=VK_KHR_global_priority [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_KHR_image_format_list [enabled=1, external=0]
+[Vulkan init] extensions: name=VK_KHR_imageless_framebuffer [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_KHR_incremental_present [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_KHR_index_type_uint8 [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_KHR_internally_synchronized_queues [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_KHR_line_rasterization [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_KHR_load_store_op_none [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_KHR_maintenance1 [enabled=1, external=0]
+[Vulkan init] extensions: name=VK_KHR_maintenance10 [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_KHR_maintenance11 [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_KHR_maintenance2 [enabled=1, external=0]
+[Vulkan init] extensions: name=VK_KHR_maintenance3 [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_KHR_maintenance4 [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_KHR_maintenance5 [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_KHR_maintenance6 [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_KHR_maintenance7 [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_KHR_maintenance8 [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_KHR_maintenance9 [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_KHR_map_memory2 [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_KHR_multiview [enabled=1, external=0]
+[Vulkan init] extensions: name=VK_KHR_performance_query [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_KHR_pipeline_binary [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_KHR_pipeline_executable_properties [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_KHR_pipeline_library [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_KHR_present_id [enabled=1, external=0]
+[Vulkan init] extensions: name=VK_KHR_present_id2 [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_KHR_present_wait [enabled=1, external=0]
+[Vulkan init] extensions: name=VK_KHR_present_wait2 [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_KHR_push_descriptor [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_KHR_ray_query [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_KHR_ray_tracing_maintenance1 [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_KHR_ray_tracing_pipeline [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_KHR_ray_tracing_position_fetch [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_KHR_relaxed_block_layout [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_KHR_robustness2 [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_KHR_sampler_mirror_clamp_to_edge [enabled=1, external=0]
+[Vulkan init] extensions: name=VK_KHR_sampler_ycbcr_conversion [enabled=1, external=0]
+[Vulkan init] extensions: name=VK_KHR_separate_depth_stencil_layouts [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_KHR_shader_abort [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_KHR_shader_atomic_int64 [enabled=1, external=0]
+[Vulkan init] extensions: name=VK_KHR_shader_clock [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_KHR_shader_constant_data [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_KHR_shader_draw_parameters [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_KHR_shader_expect_assume [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_KHR_shader_float16_int8 [enabled=1, external=0]
+[Vulkan init] extensions: name=VK_KHR_shader_float_controls [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_KHR_shader_float_controls2 [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_KHR_shader_fma [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_KHR_shader_integer_dot_product [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_KHR_shader_maximal_reconvergence [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_KHR_shader_non_semantic_info [enabled=1, external=0]
+[Vulkan init] extensions: name=VK_KHR_shader_quad_control [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_KHR_shader_relaxed_extended_instruction [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_KHR_shader_subgroup_extended_types [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_KHR_shader_subgroup_rotate [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_KHR_shader_subgroup_uniform_control_flow [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_KHR_shader_terminate_invocation [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_KHR_shader_untyped_pointers [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_KHR_spirv_1_4 [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_KHR_storage_buffer_storage_class [enabled=1, external=0]
+[Vulkan init] extensions: name=VK_KHR_swapchain [enabled=1, external=0]
+[Vulkan init] extensions: name=VK_KHR_swapchain_maintenance1 [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_KHR_swapchain_mutable_format [enabled=1, external=0]
+[Vulkan init] extensions: name=VK_KHR_synchronization2 [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_KHR_timeline_semaphore [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_KHR_uniform_buffer_standard_layout [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_KHR_variable_pointers [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_KHR_vertex_attribute_divisor [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_KHR_video_decode_av1 [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_KHR_video_decode_h264 [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_KHR_video_decode_h265 [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_KHR_video_decode_queue [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_KHR_video_decode_vp9 [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_KHR_video_encode_h264 [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_KHR_video_encode_h265 [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_KHR_video_encode_intra_refresh [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_KHR_video_encode_quantization_map [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_KHR_video_encode_queue [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_KHR_video_maintenance1 [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_KHR_video_maintenance2 [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_KHR_video_queue [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_KHR_vulkan_memory_model [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_KHR_workgroup_memory_explicit_layout [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_KHR_zero_initialize_workgroup_memory [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_MESA_image_alignment_control [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_NV_compute_shader_derivatives [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_VALVE_mutable_descriptor_type [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_VALVE_shader_mixed_float_dot_product [enabled=0, external=0]
+[Vulkan init] extensions: name=VK_VALVE_video_encode_rgb_conversion [enabled=0, external=0]
+VULKAN: GENERAL ERROR: loader_create_device_chain: Failed to find 'vkGetInstanceProcAddr' in layer "/home/rhiannon/.local/share/vulkan/implicit_layer.d/../../../lib/liblsfg-vk-layer.so".  Skipping layer.
+  Objects:
+    #0: { type = VK_OBJECT_TYPE_INSTANCE, handle = 0x555b7996b080 }
+
+[vulkan] Loaded device function vkDestroyDevice
+[vulkan] Loaded device function vkGetDeviceQueue
+[vulkan] Loaded device function vkQueueSubmit
+[vulkan] Loaded device function vkQueueWaitIdle
+[vulkan] Loaded device function vkDeviceWaitIdle
+[vulkan] Loaded device function vkAllocateMemory
+[vulkan] Loaded device function vkFreeMemory
+[vulkan] Loaded device function vkMapMemory
+[vulkan] Loaded device function vkUnmapMemory
+[vulkan] Loaded device function vkFlushMappedMemoryRanges
+[vulkan] Loaded device function vkInvalidateMappedMemoryRanges
+[vulkan] Loaded device function vkGetDeviceMemoryCommitment
+[vulkan] Loaded device function vkBindBufferMemory
+[vulkan] Loaded device function vkBindImageMemory
+[vulkan] Loaded device function vkGetBufferMemoryRequirements
+[vulkan] Loaded device function vkGetImageMemoryRequirements
+[vulkan] Loaded device function vkGetImageSparseMemoryRequirements
+[vulkan] Loaded device function vkQueueBindSparse
+[vulkan] Loaded device function vkCreateFence
+[vulkan] Loaded device function vkDestroyFence
+[vulkan] Loaded device function vkResetFences
+[vulkan] Loaded device function vkGetFenceStatus
+[vulkan] Loaded device function vkWaitForFences
+[vulkan] Loaded device function vkCreateSemaphore
+[vulkan] Loaded device function vkDestroySemaphore
+[vulkan] Loaded device function vkCreateEvent
+[vulkan] Loaded device function vkDestroyEvent
+[vulkan] Loaded device function vkGetEventStatus
+[vulkan] Loaded device function vkSetEvent
+[vulkan] Loaded device function vkResetEvent
+[vulkan] Loaded device function vkCreateQueryPool
+[vulkan] Loaded device function vkDestroyQueryPool
+[vulkan] Loaded device function vkGetQueryPoolResults
+[vulkan] Loaded device function vkCreateBuffer
+[vulkan] Loaded device function vkDestroyBuffer
+[vulkan] Loaded device function vkCreateBufferView
+[vulkan] Loaded device function vkDestroyBufferView
+[vulkan] Loaded device function vkCreateImage
+[vulkan] Loaded device function vkDestroyImage
+[vulkan] Loaded device function vkGetImageSubresourceLayout
+[vulkan] Loaded device function vkCreateImageView
+[vulkan] Loaded device function vkDestroyImageView
+[vulkan] Loaded device function vkCreateShaderModule
+[vulkan] Loaded device function vkDestroyShaderModule
+[vulkan] Loaded device function vkCreatePipelineCache
+[vulkan] Loaded device function vkDestroyPipelineCache
+[vulkan] Loaded device function vkGetPipelineCacheData
+[vulkan] Loaded device function vkMergePipelineCaches
+[vulkan] Loaded device function vkCreateGraphicsPipelines
+[vulkan] Loaded device function vkCreateComputePipelines
+[vulkan] Loaded device function vkDestroyPipeline
+[vulkan] Loaded device function vkCreatePipelineLayout
+[vulkan] Loaded device function vkDestroyPipelineLayout
+[vulkan] Loaded device function vkCreateSampler
+[vulkan] Loaded device function vkDestroySampler
+[vulkan] Loaded device function vkCreateDescriptorSetLayout
+[vulkan] Loaded device function vkDestroyDescriptorSetLayout
+[vulkan] Loaded device function vkCreateDescriptorPool
+[vulkan] Loaded device function vkDestroyDescriptorPool
+[vulkan] Loaded device function vkResetDescriptorPool
+[vulkan] Loaded device function vkAllocateDescriptorSets
+[vulkan] Loaded device function vkFreeDescriptorSets
+[vulkan] Loaded device function vkUpdateDescriptorSets
+[vulkan] Loaded device function vkCreateFramebuffer
+[vulkan] Loaded device function vkDestroyFramebuffer
+[vulkan] Loaded device function vkCreateRenderPass
+[vulkan] Loaded device function vkDestroyRenderPass
+[vulkan] Loaded device function vkGetRenderAreaGranularity
+[vulkan] Loaded device function vkCreateCommandPool
+[vulkan] Loaded device function vkDestroyCommandPool
+[vulkan] Loaded device function vkResetCommandPool
+[vulkan] Loaded device function vkAllocateCommandBuffers
+[vulkan] Loaded device function vkFreeCommandBuffers
+[vulkan] Loaded device function vkBeginCommandBuffer
+[vulkan] Loaded device function vkEndCommandBuffer
+[vulkan] Loaded device function vkResetCommandBuffer
+[vulkan] Loaded device function vkCmdBindPipeline
+[vulkan] Loaded device function vkCmdSetViewport
+[vulkan] Loaded device function vkCmdSetScissor
+[vulkan] Loaded device function vkCmdSetLineWidth
+[vulkan] Loaded device function vkCmdSetDepthBias
+[vulkan] Loaded device function vkCmdSetBlendConstants
+[vulkan] Loaded device function vkCmdSetDepthBounds
+[vulkan] Loaded device function vkCmdSetStencilCompareMask
+[vulkan] Loaded device function vkCmdSetStencilWriteMask
+[vulkan] Loaded device function vkCmdSetStencilReference
+[vulkan] Loaded device function vkCmdBindDescriptorSets
+[vulkan] Loaded device function vkCmdBindIndexBuffer
+[vulkan] Loaded device function vkCmdBindVertexBuffers
+[vulkan] Loaded device function vkCmdDraw
+[vulkan] Loaded device function vkCmdDrawIndexed
+[vulkan] Loaded device function vkCmdDrawIndirect
+[vulkan] Loaded device function vkCmdDrawIndexedIndirect
+[vulkan] Loaded device function vkCmdDispatch
+[vulkan] Loaded device function vkCmdDispatchIndirect
+[vulkan] Loaded device function vkCmdCopyBuffer
+[vulkan] Loaded device function vkCmdCopyImage
+[vulkan] Loaded device function vkCmdBlitImage
+[vulkan] Loaded device function vkCmdCopyBufferToImage
+[vulkan] Loaded device function vkCmdCopyImageToBuffer
+[vulkan] Loaded device function vkCmdUpdateBuffer
+[vulkan] Loaded device function vkCmdFillBuffer
+[vulkan] Loaded device function vkCmdClearColorImage
+[vulkan] Loaded device function vkCmdClearDepthStencilImage
+[vulkan] Loaded device function vkCmdClearAttachments
+[vulkan] Loaded device function vkCmdResolveImage
+[vulkan] Loaded device function vkCmdSetEvent
+[vulkan] Loaded device function vkCmdResetEvent
+[vulkan] Loaded device function vkCmdWaitEvents
+[vulkan] Loaded device function vkCmdPipelineBarrier
+[vulkan] Loaded device function vkCmdBeginQuery
+[vulkan] Loaded device function vkCmdEndQuery
+[vulkan] Loaded device function vkCmdResetQueryPool
+[vulkan] Loaded device function vkCmdWriteTimestamp
+[vulkan] Loaded device function vkCmdCopyQueryPoolResults
+[vulkan] Loaded device function vkCmdPushConstants
+[vulkan] Loaded device function vkCmdBeginRenderPass
+[vulkan] Loaded device function vkCmdNextSubpass
+[vulkan] Loaded device function vkCmdEndRenderPass
+[vulkan] Loaded device function vkCmdExecuteCommands
+[vulkan] Loaded device function vkGetImageMemoryRequirements2KHR
+[vulkan] Loaded device function vkGetBufferMemoryRequirements2KHR
+[vulkan] Loaded device function vkGetImageSparseMemoryRequirements2KHR
+[vulkan] Loaded device function vkCreateDescriptorUpdateTemplateKHR
+[vulkan] Loaded device function vkDestroyDescriptorUpdateTemplateKHR
+[vulkan] Loaded device function vkUpdateDescriptorSetWithTemplateKHR
+[vulkan] Loaded device function vkCmdBeginRenderPass2KHR
+[vulkan] Loaded device function vkCmdEndRenderPass2KHR
+[vulkan] Loaded device function vkCmdNextSubpass2KHR
+[vulkan] Loaded device function vkCreateRenderPass2KHR
+[vulkan] Loaded device function vkCmdSetVertexInputEXT
+[vulkan] Loaded device function vkCmdSetFragmentShadingRateKHR
+[vulkan] Failed to load device function vkGetFramebufferTilePropertiesQCOM
+[vulkan] Loaded instance function vkGetFramebufferTilePropertiesQCOM
+[vulkan] Failed to load device function vkDebugMarkerSetObjectTagEXT
+[vulkan] Loaded instance function vkDebugMarkerSetObjectTagEXT
+[vulkan] Failed to load device function vkDebugMarkerSetObjectNameEXT
+[vulkan] Loaded instance function vkDebugMarkerSetObjectNameEXT
+[vulkan] Failed to load device function vkCmdDebugMarkerBeginEXT
+[vulkan] Loaded instance function vkCmdDebugMarkerBeginEXT
+[vulkan] Failed to load device function vkCmdDebugMarkerEndEXT
+[vulkan] Loaded instance function vkCmdDebugMarkerEndEXT
+[vulkan] Failed to load device function vkCmdDebugMarkerInsertEXT
+[vulkan] Loaded instance function vkCmdDebugMarkerInsertEXT
+Vulkan API version 1.1.0 (1.4.354 supported by driver, 1.1.0 requested)
+Vulkan vendor=[ATI] id=[1002]
+Vulkan renderer=[AMD Radeon RX 6950 XT (RADV NAVI21)] id=[73a5]
+Vulkan device type 2
+Vulkan driverversion=[26.2.4 (0x06802004)] uint=[109060100]
+Vulkan driverLibraryString=[radv (3), Mesa 26.2.4-arch3.1]
+Vulkan PSO: cache data not found [path=/tmp/Unity Technologies/com_unity_template_hdrp-blank/vulkan_pso_cache.bin]
+Initialize mono
+Mono path[0] = '/home/rhiannon/Unity/Hub/Editor/6000.3.7f1/Editor/Data/Managed'
+Mono path[1] = '/home/rhiannon/Unity/Hub/Editor/6000.3.7f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-linux'
+Mono config path = '/home/rhiannon/Unity/Hub/Editor/6000.3.7f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56441
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /home/rhiannon/Unity/Hub/Editor/6000.3.7f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: /home/rhiannon/Unity/Hub/Editor/6000.3.7f1/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: /home/rhiannon/Unity/Hub/Editor/6000.3.7f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: F4-AVMW-9ASS-72GH-PCVE-XXXX
+  Product: Unity Personal
+  Type: ULF
+  Expiration: Unlimited
+[Licensing::Module] License group:
+  Id: 16768291832327-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+Register platform support module: /home/rhiannon/Unity/Hub/Editor/6000.3.7f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: /home/rhiannon/Unity/Hub/Editor/6000.3.7f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
+Registered in 0.007766 seconds.
+- Loaded All Assemblies, in  0.285 seconds
+Native extension for LinuxStandalone target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 186 ms
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.557 seconds
+Domain Reload Profiling: 841ms
+	BeginReloadAssembly (58ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (30ms)
+	RebuildNativeTypeToScriptingClass (6ms)
+	initialDomainReloadingComplete (46ms)
+	LoadAllAssembliesAndSetupDomain (145ms)
+		LoadAssemblies (58ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (141ms)
+			TypeCache.Refresh (141ms)
+				TypeCache.ScanAssembly (131ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (557ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (523ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (295ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (71ms)
+			ProcessInitializeOnLoadAttributes (111ms)
+			ProcessInitializeOnLoadMethodAttributes (44ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: F4-AVMW-9ASS-72GH-PCVE-XXXX
+  Product: Unity Personal
+  Type: ULF
+  Expiration: Unlimited
+[Licensing::Module] License group:
+  Id: 16768291832327-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+- Loaded All Assemblies, in  0.516 seconds
+Refreshing native plugins compatible for Editor in 0.13 ms, found 0 plugins.
+Native extension for LinuxStandalone target not found
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.722 seconds
+Domain Reload Profiling: 1236ms
+	BeginReloadAssembly (101ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (30ms)
+	RebuildCommonClasses (28ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (30ms)
+	LoadAllAssembliesAndSetupDomain (347ms)
+		LoadAssemblies (183ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (202ms)
+			TypeCache.Refresh (159ms)
+				TypeCache.ScanAssembly (146ms)
+			BuildScriptInfoCaches (34ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (722ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (600ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (20ms)
+			SetLoadedEditorAssemblies (2ms)
+			BeforeProcessingInitializeOnLoad (107ms)
+			ProcessInitializeOnLoadAttributes (228ms)
+			ProcessInitializeOnLoadMethodAttributes (239ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (3ms)
+AutoLocale: current locale expects 'C' but got 'en_AU.UTF-8'Launched and connected shader compiler UnityShaderCompiler after 0.01 seconds
+Refreshing native plugins compatible for Editor in 0.16 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 47 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5709 unused Assets / (11.2 MB). Loaded Objects now: 6701.
+Memory consumption went from 243.5 MB to 232.2 MB.
+Total: 10.508793 ms (FindLiveObjects: 0.415328 ms CreateObjectMapping: 0.371048 ms MarkObjects: 5.748489 ms  DeleteObjects: 3.973408 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 925.200396 seconds.
+  path: Assets/Scripts/AI/CrowdPedestrian.cs
+  artifactKey: Guid(408f48e936698301d85178c501bd0e5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/AI/CrowdPedestrian.cs using Guid(408f48e936698301d85178c501bd0e5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4130dc359355d3118febe227a6f18bfe') in 0.002039169 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.322048 seconds.
+  path: Assets/Scripts/AI/EnemySenses.cs
+  artifactKey: Guid(7577203b41b93b79cb6fc1943b65f840) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/AI/EnemySenses.cs using Guid(7577203b41b93b79cb6fc1943b65f840) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e535f92daa72b6385d305f5c43b8b5a4') in 0.000284339 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.025056 seconds.
+  path: Assets/Scripts/AI/EnemyWeapon.cs
+  artifactKey: Guid(ab12794a70567ffa39dc2f1005936bf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/AI/EnemyWeapon.cs using Guid(ab12794a70567ffa39dc2f1005936bf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e582d11a1e3f4834b1f5bbcd2143132f') in 0.000264349 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.537276 seconds.
+  path: Assets/Scripts/AI/FleeingBountyBrain.cs
+  artifactKey: Guid(ab818e9e746efa7d7acad54a053d2cb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/AI/FleeingBountyBrain.cs using Guid(ab818e9e746efa7d7acad54a053d2cb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '83b39ea465cb4d014e13fac0589894c5') in 0.000268439 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.716039 seconds.
+  path: Assets/Scripts/AI/GunfireAlarmReporter.cs
+  artifactKey: Guid(0735d1c1e155248c6a81f0cac6e649f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/AI/GunfireAlarmReporter.cs using Guid(0735d1c1e155248c6a81f0cac6e649f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7732693c41933f83a67635e54884935c') in 0.000277499 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.064273 seconds.
+  path: Assets/Scripts/AI/Subduable.cs
+  artifactKey: Guid(f852377cbc306b767893b8e3a55129f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/AI/Subduable.cs using Guid(f852377cbc306b767893b8e3a55129f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd0f0ad64fc363d09dab37ce33b5cecb6') in 0.000266559 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.668888 seconds.
+  path: Assets/Scripts/Bounty/BountyContract.cs
+  artifactKey: Guid(a02c4d573e9c8aa829bda24c2846058f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Bounty/BountyContract.cs using Guid(a02c4d573e9c8aa829bda24c2846058f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5780e91de09cca951c0d98484d9161a3') in 0.000262289 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.961114 seconds.
+  path: Assets/Scripts/Bounty/BountyRegistry.cs
+  artifactKey: Guid(01d274b2a4e1c67eebdba057963b50e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Bounty/BountyRegistry.cs using Guid(01d274b2a4e1c67eebdba057963b50e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0722297fd66604336e8cdd30ed923e61') in 0.000265849 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.058208 seconds.
+  path: Assets/Scripts/Bounty/BountyTarget.cs
+  artifactKey: Guid(410383c1793e12b908e52ebbe6c2f589) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Bounty/BountyTarget.cs using Guid(410383c1793e12b908e52ebbe6c2f589) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7298b28a9baba8836b736fbf96dbb6a7') in 0.000267648 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.032791 seconds.
+  path: Assets/Scripts/Bounty/ContractProgression.cs
+  artifactKey: Guid(a5b3642cb80637a66b5c603251ac32e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Bounty/ContractProgression.cs using Guid(a5b3642cb80637a66b5c603251ac32e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'abb33e6c9d8f5875dd331b95e5e29434') in 0.000280278 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.843776 seconds.
+  path: Assets/Scripts/Combat/GadgetThrower.cs
+  artifactKey: Guid(066bc4daa7ceacc50afb2f949a7a1c90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Combat/GadgetThrower.cs using Guid(066bc4daa7ceacc50afb2f949a7a1c90) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '728b748bf51c10344214017f51b78b2b') in 0.000291909 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.080956 seconds.
+  path: Assets/Scripts/Combat/Health.cs
+  artifactKey: Guid(bd01a35a2422846cb9545699cf95a449) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Combat/Health.cs using Guid(bd01a35a2422846cb9545699cf95a449) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b2dc080b365c7eff36c511e1229f8622') in 0.000334768 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.951032 seconds.
+  path: Assets/Scripts/Combat/Hitbox.cs
+  artifactKey: Guid(fcd82097f2d346679638e101d2f5d2b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Combat/Hitbox.cs using Guid(fcd82097f2d346679638e101d2f5d2b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8c51d94f9a0a8ab05340e22dad4ce415') in 0.000290859 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.076888 seconds.
+  path: Assets/Scripts/Combat/Projectile.cs
+  artifactKey: Guid(66f3381e62b4e566ba196a5da57b5e31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Combat/Projectile.cs using Guid(66f3381e62b4e566ba196a5da57b5e31) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0e6eb36970824ca03a22a12d859d482a') in 0.000257889 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.559213 seconds.
+  path: Assets/Scripts/Combat/SnarePod.cs
+  artifactKey: Guid(74fe6f1cf32645acaa9c5861cb8dd721) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Combat/SnarePod.cs using Guid(74fe6f1cf32645acaa9c5861cb8dd721) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2b76d77b44e4c787e67a5c0d2cc8ac35') in 0.000290689 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.146878 seconds.
+  path: Assets/Scripts/Combat/WeaponController.cs
+  artifactKey: Guid(f42c56bee73a6ff72ae4c3e98156d50a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Combat/WeaponController.cs using Guid(f42c56bee73a6ff72ae4c3e98156d50a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b735e6c52d048fd5b402b0f92fe19d02') in 0.000260128 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.362321 seconds.
+  path: Assets/Scripts/Combat/WeaponDefinition.cs
+  artifactKey: Guid(6ecbfe5667e08cfa3be0ff3d1f4c1c89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Combat/WeaponDefinition.cs using Guid(6ecbfe5667e08cfa3be0ff3d1f4c1c89) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cd5683d668c2be2b329ba478a20f5b22') in 0.000367548 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.222244 seconds.
+  path: Assets/Scripts/Combat/WeaponInstance.cs
+  artifactKey: Guid(38351d08156458f648350244d31f052d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Combat/WeaponInstance.cs using Guid(38351d08156458f648350244d31f052d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c5efeedac9cc75316d19db9a1dd188c5') in 0.000297368 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.366654 seconds.
+  path: Assets/Scripts/Config/MovementConfig.cs
+  artifactKey: Guid(6d2fa89ea5ce7a858bc52095ac952cb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Config/MovementConfig.cs using Guid(6d2fa89ea5ce7a858bc52095ac952cb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b1178eca22046ef1d97467efedcc1c49') in 0.000253559 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.626379 seconds.
+  path: Assets/Scripts/Core/DamageInfo.cs
+  artifactKey: Guid(24613b8690f79e82d95e858962d1bc55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Core/DamageInfo.cs using Guid(24613b8690f79e82d95e858962d1bc55) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c776e60b8ee639be5abadcfcd7048b78') in 0.000285709 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.858617 seconds.
+  path: Assets/Scripts/Core/ISnareable.cs
+  artifactKey: Guid(361878466525bad00960f553f708b19c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Core/ISnareable.cs using Guid(361878466525bad00960f553f708b19c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1e3f55afa3d1701d0f3ec1cc407c64f5') in 0.000280219 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 87.338857 seconds.
+  path: Assets/Scripts/Editor/ArtSetup.cs
+  artifactKey: Guid(6ac8fc19b2541a6c9a6b10b0e47dc0e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Editor/ArtSetup.cs using Guid(6ac8fc19b2541a6c9a6b10b0e47dc0e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6ff38e042071c99efa90f09c142ab59b') in 0.000259509 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.781461 seconds.
+  path: Assets/Scripts/Editor/AssetAuthoring.cs
+  artifactKey: Guid(a479c63872cbd6308b8e660a2f07960f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Editor/AssetAuthoring.cs using Guid(a479c63872cbd6308b8e660a2f07960f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '18d1d2d4623ffdc936d131263e254a05') in 0.000282688 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.047286 seconds.
+  path: Assets/Scripts/Editor/CityArt.cs
+  artifactKey: Guid(592cb43fac94f0f3cb009b9322617714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Editor/CityArt.cs using Guid(592cb43fac94f0f3cb009b9322617714) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c0304aa4870eb8fdff139baf54a34175') in 0.000255009 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.241252 seconds.
+  path: Assets/Scripts/Editor/CityCast.cs
+  artifactKey: Guid(3fb258ce0be6189ac952ec851aee1f1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Editor/CityCast.cs using Guid(3fb258ce0be6189ac952ec851aee1f1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5acbc5f3121274ac4a416b7f92758589') in 0.000277558 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.173766 seconds.
+  path: Assets/Scripts/Editor/CityGeometry.cs
+  artifactKey: Guid(fd39ee46c1588b6c29ab37feb35c9d1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Editor/CityGeometry.cs using Guid(fd39ee46c1588b6c29ab37feb35c9d1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '45f767660bc814fbaabea5b79a80ccc3') in 0.000297858 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.009175 seconds.
+  path: Assets/Scripts/Editor/CityLayout.cs
+  artifactKey: Guid(4b6c9b1daf92b23d7aebef1ae37410ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Editor/CityLayout.cs using Guid(4b6c9b1daf92b23d7aebef1ae37410ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9aa80e528df9db5925caea8f99d549fb') in 0.000285039 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.100185 seconds.
+  path: Assets/Scripts/Editor/CitySceneBuilder.cs
+  artifactKey: Guid(27f78571a357ab97d937c0eee0069555) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Editor/CitySceneBuilder.cs using Guid(27f78571a357ab97d937c0eee0069555) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cd66f375dbdfe38fddd8583bb4b1ac31') in 0.000251298 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.262550 seconds.
+  path: Assets/Scripts/Editor/FabImporter.cs
+  artifactKey: Guid(c28b291bd133c7b339db72f6ebf3bbbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Editor/FabImporter.cs using Guid(c28b291bd133c7b339db72f6ebf3bbbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '240243acfdc341536674ff591f36705c') in 0.000273418 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.189669 seconds.
+  path: Assets/Scripts/Editor/GymContentBuilder.cs
+  artifactKey: Guid(eaf20a8c8a534af569febadb305292bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Editor/GymContentBuilder.cs using Guid(eaf20a8c8a534af569febadb305292bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7b4d19cc671b233649e46d4475de735c') in 0.000266929 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.074503 seconds.
+  path: Assets/Scripts/Editor/GymSceneBuilder.cs
+  artifactKey: Guid(798bd323d02ca4c4d814d7eacf86ecc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Editor/GymSceneBuilder.cs using Guid(798bd323d02ca4c4d814d7eacf86ecc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f4d063641e7d23441ad1a1a32a0cf09c') in 0.000264629 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.424904 seconds.
+  path: Assets/Scripts/Editor/HudBuilder.cs
+  artifactKey: Guid(30f6afc175cb1dd198dd72b857da5b86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Editor/HudBuilder.cs using Guid(30f6afc175cb1dd198dd72b857da5b86) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e60ca26f176d3acc2b53540ba1da9dca') in 0.000270299 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.189813 seconds.
+  path: Assets/Scripts/Editor/JobBuilder.cs
+  artifactKey: Guid(eb2762f45ee45e9c9b3b18bc54065fd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Editor/JobBuilder.cs using Guid(eb2762f45ee45e9c9b3b18bc54065fd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cd2ad96a45cb1022f6e05bc1ec71c304') in 0.000262878 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.167974 seconds.
+  path: Assets/Scripts/Editor/PerkTreeBuilder.cs
+  artifactKey: Guid(d3daccfe20f82f53a85696766d0ed357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Editor/PerkTreeBuilder.cs using Guid(d3daccfe20f82f53a85696766d0ed357) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b27b1599abc2878ea26892b1b03dec1c') in 0.000282658 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.939919 seconds.
+  path: Assets/Scripts/Editor/PlayerRigBuilder.cs
+  artifactKey: Guid(2f298e3c82a78a9d9bd399d9eff2f72f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Editor/PlayerRigBuilder.cs using Guid(2f298e3c82a78a9d9bd399d9eff2f72f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a8e730512229bbb9b3eb51f1166da410') in 0.000268358 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.236014 seconds.
+  path: Assets/Scripts/Editor/RosterImporter.cs
+  artifactKey: Guid(90e021ff674093e5e897652720c17f8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Editor/RosterImporter.cs using Guid(90e021ff674093e5e897652720c17f8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '624578f84620b340909808893bc8f9ff') in 0.000267878 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.131699 seconds.
+  path: Assets/Scripts/Gym/CombatTuner.cs
+  artifactKey: Guid(e5b3555c22671732699a622496e01aa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Gym/CombatTuner.cs using Guid(e5b3555c22671732699a622496e01aa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a959765f741fe3cd8d0b3d67d800fb5c') in 0.000302038 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.198186 seconds.
+  path: Assets/Scripts/Gym/GymController.cs
+  artifactKey: Guid(45a5c7590fad979878b7032a306bb6d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Gym/GymController.cs using Guid(45a5c7590fad979878b7032a306bb6d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '94691896b7d417e61c6a62375bffe5ee') in 0.000262469 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.310537 seconds.
+  path: Assets/Scripts/Gym/GymStation.cs
+  artifactKey: Guid(003e2ba7cf81b5d3392b49c1ce4cf1c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Gym/GymStation.cs using Guid(003e2ba7cf81b5d3392b49c1ce4cf1c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e0042c09d9dffb42c9ae6a7737060e5e') in 0.000284489 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.268031 seconds.
+  path: Assets/Scripts/Gym/HuntReadout.cs
+  artifactKey: Guid(3552af78e6b967117880f20dc8908608) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Gym/HuntReadout.cs using Guid(3552af78e6b967117880f20dc8908608) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '86caec3bda2459f329f7556165d9c4a6') in 0.000259079 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.324625 seconds.
+  path: Assets/Scripts/Gym/MovementReadout.cs
+  artifactKey: Guid(c848851a3a4f1244e94da9df527501f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Gym/MovementReadout.cs using Guid(c848851a3a4f1244e94da9df527501f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '24355d64f891a2075fed7e19338ca530') in 0.000274178 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.909198 seconds.
+  path: Assets/Scripts/Gym/RangeTarget.cs
+  artifactKey: Guid(fa6c90a21aba6c163afb1da436065b78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Gym/RangeTarget.cs using Guid(fa6c90a21aba6c163afb1da436065b78) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2a8e90ca3d589048a55351d5b62e2549') in 0.000304379 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.092226 seconds.
+  path: Assets/Scripts/Gym/SaveHotkeys.cs
+  artifactKey: Guid(f647ee6d73826e37cbd752bdd7b21cb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Gym/SaveHotkeys.cs using Guid(f647ee6d73826e37cbd752bdd7b21cb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a2e20be31d3bb56a27bbd7e3afbe8bb8') in 0.000272779 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.320498 seconds.
+  path: Assets/Scripts/Inventory/InventoryInputBridge.cs
+  artifactKey: Guid(1658ff55bbb87d0f5bbd01d778254a12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Inventory/InventoryInputBridge.cs using Guid(1658ff55bbb87d0f5bbd01d778254a12) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '70b7391437cba2b9c2561c635d36de11') in 0.000278318 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.956371 seconds.
+  path: Assets/Scripts/Inventory/InventoryModels.cs
+  artifactKey: Guid(f5f09d88ca7cf14c9a56d2f31683e1c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Inventory/InventoryModels.cs using Guid(f5f09d88ca7cf14c9a56d2f31683e1c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '603d902014a52003059081040a824f50') in 0.000282708 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.018950 seconds.
+  path: Assets/Scripts/Inventory/InventorySystem.cs
+  artifactKey: Guid(a4b6dfc7ed1e5e64682c7b2114d27afd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Inventory/InventorySystem.cs using Guid(a4b6dfc7ed1e5e64682c7b2114d27afd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '366af98d6b24a343ea0ee2fc795e1cae') in 0.000253949 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.306655 seconds.
+  path: Assets/Scripts/Inventory/ItemDefinition.cs
+  artifactKey: Guid(4caa798491955112f8a0c1d8843f73b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Inventory/ItemDefinition.cs using Guid(4caa798491955112f8a0c1d8843f73b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '57147c49fb0a72a212c1b0beddf195be') in 0.000290869 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.451411 seconds.
+  path: Assets/Scripts/Inventory/StartingInventory.cs
+  artifactKey: Guid(71558f7abb67b573c8c27228837ec374) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Inventory/StartingInventory.cs using Guid(71558f7abb67b573c8c27228837ec374) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '980592165437e10324c6048add4ded9e') in 0.000287578 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.845178 seconds.
+  path: Assets/Scripts/Investigation/Bystander.cs
+  artifactKey: Guid(c2169ebec3193f57f9786b9ccc79ae52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Investigation/Bystander.cs using Guid(c2169ebec3193f57f9786b9ccc79ae52) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ebe5c159cb6df3c2a58f239ef2cd8005') in 0.000252219 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.935942 seconds.
+  path: Assets/Scripts/Investigation/CrowdIdentity.cs
+  artifactKey: Guid(c527aa584a9693c63819ec111c03be06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Investigation/CrowdIdentity.cs using Guid(c527aa584a9693c63819ec111c03be06) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3d524cfc00b878ed3d72afdc77d534bd') in 0.000279539 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.267445 seconds.
+  path: Assets/Scripts/Investigation/DistrictHeat.cs
+  artifactKey: Guid(2169506bf3db6d11f8673f4782d27ad4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Investigation/DistrictHeat.cs using Guid(2169506bf3db6d11f8673f4782d27ad4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b7d9ce37bcc5c33e6b51d4b7ad8f9378') in 0.000285808 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.753908 seconds.
+  path: Assets/Scripts/Investigation/Dossier.cs
+  artifactKey: Guid(8879887d307f31370a6bdbc92f60708e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Investigation/Dossier.cs using Guid(8879887d307f31370a6bdbc92f60708e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e9555bc43e455fbb02ec76f327c439da') in 0.000256529 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.401892 seconds.
+  path: Assets/Scripts/Investigation/HuntDirector.cs
+  artifactKey: Guid(a12536a487e37b0e29181c6d30f07553) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Investigation/HuntDirector.cs using Guid(a12536a487e37b0e29181c6d30f07553) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9b6f939d67c03f604cef985d597976d5') in 0.000259429 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.397153 seconds.
+  path: Assets/Scripts/Investigation/IdentityCatalog.cs
+  artifactKey: Guid(13874f5690ec9ec37971cf6ec933e5b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Investigation/IdentityCatalog.cs using Guid(13874f5690ec9ec37971cf6ec933e5b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '915fbbaa59bb6dc641ea910f13230a3b') in 0.000271769 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.727470 seconds.
+  path: Assets/Scripts/Investigation/IdentityMark.cs
+  artifactKey: Guid(63bfdadac01f64fdc930609d3790e534) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Investigation/IdentityMark.cs using Guid(63bfdadac01f64fdc930609d3790e534) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4c064fc447fe9ff2bf40d7d066994060') in 0.000289968 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.986932 seconds.
+  path: Assets/Scripts/Investigation/TargetScanner.cs
+  artifactKey: Guid(56e38e185c17ec96381893086e51f933) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Investigation/TargetScanner.cs using Guid(56e38e185c17ec96381893086e51f933) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '36ce0eb3f67d8488be775c3522028dca') in 0.000270678 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.869200 seconds.
+  path: Assets/Scripts/Jobs/JobDefinition.cs
+  artifactKey: Guid(370ffa92ab89a77cd8ea4f566c8f5051) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Jobs/JobDefinition.cs using Guid(370ffa92ab89a77cd8ea4f566c8f5051) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8ba53691dba211795b5754fdd665f981') in 0.000277309 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.926455 seconds.
+  path: Assets/Scripts/Jobs/JobLadder.cs
+  artifactKey: Guid(d7ebf7340e143d051bd03909da41a6aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Jobs/JobLadder.cs using Guid(d7ebf7340e143d051bd03909da41a6aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd5a8dc76d5c97a632d898ac97667768d') in 0.000260248 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.401300 seconds.
+  path: Assets/Scripts/Jobs/JobObjective.cs
+  artifactKey: Guid(bcbd85411e44e4edc9428b6da1d8d8c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Jobs/JobObjective.cs using Guid(bcbd85411e44e4edc9428b6da1d8d8c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd275642840c8740c8d60ea08516e8059') in 0.000286048 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.025088 seconds.
+  path: Assets/Scripts/Jobs/JobRunner.cs
+  artifactKey: Guid(3cd89def5b7bc125ea1e3954bd156350) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Jobs/JobRunner.cs using Guid(3cd89def5b7bc125ea1e3954bd156350) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '095b113604653c9e30cb99bec64eca69') in 0.000275819 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 133.442053 seconds.
+  path: Assets/Scripts/Movement/GroundSlamImpact.cs
+  artifactKey: Guid(de644e61c6c9328f4afa441db3c6524f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Movement/GroundSlamImpact.cs using Guid(de644e61c6c9328f4afa441db3c6524f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5eeac9c481581ec859130a6734f595ff') in 0.000290669 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.567850 seconds.
+  path: Assets/Scripts/Movement/PlayerMotor.cs
+  artifactKey: Guid(edbc22f28b06c959e9bb18b673036798) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Movement/PlayerMotor.cs using Guid(edbc22f28b06c959e9bb18b673036798) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd4780d8e9c255f6f0fc96f9a300caa8b') in 0.000258379 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.984109 seconds.
+  path: Assets/Scripts/Movement/PlayerMovementController.cs
+  artifactKey: Guid(0fbb103bb2766b7909cb4fd33b39764d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Movement/PlayerMovementController.cs using Guid(0fbb103bb2766b7909cb4fd33b39764d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ccb8d2e423b01c3074505938237db0e3') in 0.000270029 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.028242 seconds.
+  path: Assets/Scripts/Movement/PlayerMovementController.Affordances.cs
+  artifactKey: Guid(b2373b7377bc5a08c90d5ea52daeaede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Movement/PlayerMovementController.Affordances.cs using Guid(b2373b7377bc5a08c90d5ea52daeaede) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ab806ed5aa565086dd517989e40432ca') in 0.000332328 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.844098 seconds.
+  path: Assets/Scripts/Movement/PlayerMovementController.AirMoves.cs
+  artifactKey: Guid(cf66330b2e94cd6cca141e0af8a2e289) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Movement/PlayerMovementController.AirMoves.cs using Guid(cf66330b2e94cd6cca141e0af8a2e289) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a7e8d7ce93664f801f73e0e5156f1389') in 0.000269558 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.457273 seconds.
+  path: Assets/Scripts/Movement/PlayerMovementController.Grapple.cs
+  artifactKey: Guid(4fc670a60a1dcae4996f626d5ed143e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Movement/PlayerMovementController.Grapple.cs using Guid(4fc670a60a1dcae4996f626d5ed143e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c6699d10075d42fd0de5afd6c85a54aa') in 0.000267959 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.287133 seconds.
+  path: Assets/Scripts/Movement/PlayerMovementController.Mantle.cs
+  artifactKey: Guid(b16b50f6a8b4c074c8fef76a3d51a383) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Movement/PlayerMovementController.Mantle.cs using Guid(b16b50f6a8b4c074c8fef76a3d51a383) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '31e89b59f1c2968d3603ab05c2e0235c') in 0.000276028 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.609917 seconds.
+  path: Assets/Scripts/Movement/PlayerMovementController.Slide.cs
+  artifactKey: Guid(1a9cdca796d88bf5d9800e60f511c9ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Movement/PlayerMovementController.Slide.cs using Guid(1a9cdca796d88bf5d9800e60f511c9ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9c08966fba59bd8677f0684c1824a241') in 0.000283879 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.292938 seconds.
+  path: Assets/Scripts/Movement/PlayerMovementController.WallRun.cs
+  artifactKey: Guid(ced480af1044041649e00e76e5df8f96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Movement/PlayerMovementController.WallRun.cs using Guid(ced480af1044041649e00e76e5df8f96) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7903a765399dabe81c7ebda58796c01b') in 0.000253819 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.966457 seconds.
+  path: Assets/Scripts/Narrative/BarkSet.cs
+  artifactKey: Guid(cae7278c1048c0e96bcf39e30fc48431) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Narrative/BarkSet.cs using Guid(cae7278c1048c0e96bcf39e30fc48431) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ad1e1eeb368a75632d37e52b1f100a79') in 0.000281739 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.105091 seconds.
+  path: Assets/Scripts/Narrative/DialogueGraph.cs
+  artifactKey: Guid(b27d49844be7242b686519318c7bfe24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Narrative/DialogueGraph.cs using Guid(b27d49844be7242b686519318c7bfe24) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '95cae472472ffc93d09d2b11b73df3ed') in 0.000253619 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.994867 seconds.
+  path: Assets/Scripts/Narrative/DialogueRunner.cs
+  artifactKey: Guid(13d1c2caed16a3d09932684963798eba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Narrative/DialogueRunner.cs using Guid(13d1c2caed16a3d09932684963798eba) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '25db6c337232b8c5500988e8636fa6a8') in 0.000283238 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.041826 seconds.
+  path: Assets/Scripts/Narrative/FlagCondition.cs
+  artifactKey: Guid(fe2d1e76c5b7b09bf8d143c18986a83f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Narrative/FlagCondition.cs using Guid(fe2d1e76c5b7b09bf8d143c18986a83f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c6f831c1c399d29ef726089568133296') in 0.000288478 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.044978 seconds.
+  path: Assets/Scripts/Narrative/StoryFlags.cs
+  artifactKey: Guid(c1d3f5355733f2c1a81a53ae028876fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Narrative/StoryFlags.cs using Guid(c1d3f5355733f2c1a81a53ae028876fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b125b609696445d8e01dd69f32bd683a') in 0.000266918 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.056993 seconds.
+  path: Assets/Scripts/Perks/PerkDefinition.cs
+  artifactKey: Guid(9a6e1779a4275a1059c9f1949f5a87f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Perks/PerkDefinition.cs using Guid(9a6e1779a4275a1059c9f1949f5a87f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'eaa5d5494fc71f205213aa76aeda6e23') in 0.000276998 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.915283 seconds.
+  path: Assets/Scripts/Perks/PerkEffect.cs
+  artifactKey: Guid(11644275d99593d7b9f9178c1ccbca24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Perks/PerkEffect.cs using Guid(11644275d99593d7b9f9178c1ccbca24) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'dc829496916e06cc3423ccf6e02feafe') in 0.000285599 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.881215 seconds.
+  path: Assets/Scripts/Perks/PerkTree.cs
+  artifactKey: Guid(b4e6dc73e9c2f808390f044ce661d23e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Perks/PerkTree.cs using Guid(b4e6dc73e9c2f808390f044ce661d23e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a3e9431633bed58728a3c23bd2a8dc00') in 0.000257949 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.441286 seconds.
+  path: Assets/Scripts/Player/AbilityCatalog.cs
+  artifactKey: Guid(f66fc6146437c3fed8d3b2b9088ed212) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Player/AbilityCatalog.cs using Guid(f66fc6146437c3fed8d3b2b9088ed212) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '746bdf436621d82ab25efbbf0f58193b') in 0.000249719 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.957919 seconds.
+  path: Assets/Scripts/Player/AbilityId.cs
+  artifactKey: Guid(2c800d5ce7911b66aae980b3a0235c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Player/AbilityId.cs using Guid(2c800d5ce7911b66aae980b3a0235c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9278b644828232f1e3948a1c35dfad78') in 0.000301868 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.882159 seconds.
+  path: Assets/Scripts/Player/AbilityUnlocks.cs
+  artifactKey: Guid(884b6170df72289e9ad040691882a3df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Player/AbilityUnlocks.cs using Guid(884b6170df72289e9ad040691882a3df) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'dfcbda209fe382ff58a96fc8e32d29b5') in 0.000261648 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.994906 seconds.
+  path: Assets/Scripts/Player/FirstPersonLook.cs
+  artifactKey: Guid(a517a3f4f8a0f77bc8434a1099a66fd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Player/FirstPersonLook.cs using Guid(a517a3f4f8a0f77bc8434a1099a66fd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ca90429d53e1dd3ff69c30f6ab4b79ae') in 0.000251388 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.197677 seconds.
+  path: Assets/Scripts/Player/PlayerInputReader.cs
+  artifactKey: Guid(cde7ad1ba113ebef59e7a9edd7566a04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Player/PlayerInputReader.cs using Guid(cde7ad1ba113ebef59e7a9edd7566a04) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2b2c3e59dd9fe3b208d628bd7f260802') in 0.000280598 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.857328 seconds.
+  path: Assets/Scripts/Player/PlayerInteractor.cs
+  artifactKey: Guid(6ee1443f2191e19ebaca365a4cda89e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Player/PlayerInteractor.cs using Guid(6ee1443f2191e19ebaca365a4cda89e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2dfbb48d78ba88487f64ea354fb8989b') in 0.000279819 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.885988 seconds.
+  path: Assets/Scripts/Player/PlayerStats.cs
+  artifactKey: Guid(b2fd8e22d8c01dd24b1b2b02295bc435) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Player/PlayerStats.cs using Guid(b2fd8e22d8c01dd24b1b2b02295bc435) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0711d1304c6066992be2e6fbbbcc8603') in 0.000255069 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.923849 seconds.
+  path: Assets/Scripts/Presentation/CharacterAnimator.cs
+  artifactKey: Guid(a1e2ebbcb320934dd9b8974835b22e49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Presentation/CharacterAnimator.cs using Guid(a1e2ebbcb320934dd9b8974835b22e49) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5a8ac08c07238bc1b6014cd77742e77e') in 0.000254048 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.888719 seconds.
+  path: Assets/Scripts/Presentation/DamageFeedback.cs
+  artifactKey: Guid(b29061ea80ee222b2babb4afb9ea67f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Presentation/DamageFeedback.cs using Guid(b29061ea80ee222b2babb4afb9ea67f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '76145effa17cbc5dc5f958e5cb7b9320') in 0.000255768 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.049544 seconds.
+  path: Assets/Scripts/Presentation/PlayerDeath.cs
+  artifactKey: Guid(36206a57f771c53b49bc59f3c92e9da3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Presentation/PlayerDeath.cs using Guid(36206a57f771c53b49bc59f3c92e9da3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e7dfcc1a7597a80c9fa0a043a591e607') in 0.000287088 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.168091 seconds.
+  path: Assets/Scripts/Presentation/ViewmodelRig.cs
+  artifactKey: Guid(eba492f7bcd4d9c27aae5cdb1823df84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Presentation/ViewmodelRig.cs using Guid(eba492f7bcd4d9c27aae5cdb1823df84) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9699d85c9f5f03bb9297c26f2cf936c5') in 0.000267588 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.116744 seconds.
+  path: Assets/Scripts/UI/AbilityAvailability.cs
+  artifactKey: Guid(44db4d70bb85e7b0c8dcd79cb855a578) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/UI/AbilityAvailability.cs using Guid(44db4d70bb85e7b0c8dcd79cb855a578) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fe2278bd8a29896e00b75b1c078d3e30') in 0.000264679 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.446878 seconds.
+  path: Assets/Scripts/UI/AbilityBarView.cs
+  artifactKey: Guid(9b6e6c52a39d48cdb8c70bbfb38931ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/UI/AbilityBarView.cs using Guid(9b6e6c52a39d48cdb8c70bbfb38931ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '76d5f0597052afdf3e1f5980d960ddd0') in 0.000278848 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.496088 seconds.
+  path: Assets/Scripts/UI/BarkSubtitleView.cs
+  artifactKey: Guid(a9df4bd72f4118bb7b143892c771b488) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/UI/BarkSubtitleView.cs using Guid(a9df4bd72f4118bb7b143892c771b488) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c1241919e380963c4d11f5270627664d') in 0.000287778 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.333861 seconds.
+  path: Assets/Scripts/UI/BountyBoardView.cs
+  artifactKey: Guid(942a0e7e5e44e22a7a54ed99c8d47e90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/UI/BountyBoardView.cs using Guid(942a0e7e5e44e22a7a54ed99c8d47e90) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b321e47b35e58b9ee4ee92920d04b6a9') in 0.000267058 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.626730 seconds.
+  path: Assets/Scripts/UI/ContextPromptView.cs
+  artifactKey: Guid(e6052fcb3c3054644a97b6e325ceb8c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/UI/ContextPromptView.cs using Guid(e6052fcb3c3054644a97b6e325ceb8c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '15f27ad5f52df0744da3fe890f15278f') in 0.000261559 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.806071 seconds.
+  path: Assets/Scripts/UI/ContractResolutionView.cs
+  artifactKey: Guid(31457fbe4ec2e2b3b93a0b05c2f08036) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/UI/ContractResolutionView.cs using Guid(31457fbe4ec2e2b3b93a0b05c2f08036) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2670bed36f1a4b767c84c0a960cb2114') in 0.000317918 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.469371 seconds.
+  path: Assets/Scripts/UI/FirstUseTipView.cs
+  artifactKey: Guid(d8cb4d22f08f1ec4eac0029242c9a9a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/UI/FirstUseTipView.cs using Guid(d8cb4d22f08f1ec4eac0029242c9a9a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3510dd0ae5eb1672d78bc245f9565c7f') in 0.000271029 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.117688 seconds.
+  path: Assets/Scripts/UI/InventoryGridView.cs
+  artifactKey: Guid(fd41c0222586ec46d8c9b1464464ba06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/UI/InventoryGridView.cs using Guid(fd41c0222586ec46d8c9b1464464ba06) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3162bff8f9f69250680efebcd496fe25') in 0.000275469 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.353404 seconds.
+  path: Assets/Scripts/UI/JobTrackerView.cs
+  artifactKey: Guid(e277d2df409cf4ebf93e72793e632f93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/UI/JobTrackerView.cs using Guid(e277d2df409cf4ebf93e72793e632f93) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e250c37dc8f35c6668a7bd7808de6abe') in 0.000362688 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.334392 seconds.
+  path: Assets/Scripts/UI/MomentumView.cs
+  artifactKey: Guid(522590221761b0ec0b407f571582255d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/UI/MomentumView.cs using Guid(522590221761b0ec0b407f571582255d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0ebd297d52806a2928afd219c1c6fd5c') in 0.000279429 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.457096 seconds.
+  path: Assets/Scripts/UI/PerkTreeInput.cs
+  artifactKey: Guid(2c379c25debdc51e882b3e2df1fa3c20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/UI/PerkTreeInput.cs using Guid(2c379c25debdc51e882b3e2df1fa3c20) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4598506ceaa56099a196d959bc06fc57') in 0.000277628 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.362481 seconds.
+  path: Assets/Scripts/UI/PerkTreeView.cs
+  artifactKey: Guid(26c0342208c78d53287799d83199a37b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/UI/PerkTreeView.cs using Guid(26c0342208c78d53287799d83199a37b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2722b5c7d9cf19388ab56692e725e4f5') in 0.000264348 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.940854 seconds.
+  path: Assets/Scripts/UI/ScreenCursor.cs
+  artifactKey: Guid(6eb9d8b19c8a90c12bc23b3dc4ad71cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/UI/ScreenCursor.cs using Guid(6eb9d8b19c8a90c12bc23b3dc4ad71cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4c73f200f4e526a445d69343bc99d47e') in 0.000296018 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.379187 seconds.
+  path: Assets/Scripts/UI/WeaponBarView.cs
+  artifactKey: Guid(4a0d2adbff1ec8b2ab0b196e9dc15c2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/UI/WeaponBarView.cs using Guid(4a0d2adbff1ec8b2ab0b196e9dc15c2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0bea70b95957ecd404ad74d2ae52ac36') in 0.000282139 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.489130 seconds.
+  path: Assets/Scripts/World/CrowdSpawner.cs
+  artifactKey: Guid(9ee04c0ac749ffeb78250b8cd618bccf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/World/CrowdSpawner.cs using Guid(9ee04c0ac749ffeb78250b8cd618bccf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b24461c83810e5e29e004fdee750872d') in 0.000261259 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.095367 seconds.
+  path: Assets/Scripts/World/DistrictDefinition.cs
+  artifactKey: Guid(b5b68fc7ccc46ee3db5088478e228e4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/World/DistrictDefinition.cs using Guid(b5b68fc7ccc46ee3db5088478e228e4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7a06fe08ecd59e0455c74a631da56a3d') in 0.000289899 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.705536 seconds.
+  path: Assets/Scripts/World/DistrictStreamer.cs
+  artifactKey: Guid(d9925fb630889776cbecae35b095086c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/World/DistrictStreamer.cs using Guid(d9925fb630889776cbecae35b095086c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bb973c28426b2f52989b3ddf1c3d3269') in 0.000257838 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.042431 seconds.
+  path: Assets/Scripts/World/Hazard.cs
+  artifactKey: Guid(38a323bbcc28c2ae783f6b0a7a89102d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/World/Hazard.cs using Guid(38a323bbcc28c2ae783f6b0a7a89102d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6f36b453c6458b10af15ccf7d1c6c8b9') in 0.000267188 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.461599 seconds.
+  path: Assets/Scripts/World/HazardMover.cs
+  artifactKey: Guid(6464dc8f171897672b862416d10085fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/World/HazardMover.cs using Guid(6464dc8f171897672b862416d10085fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '30e4131e76700af99eeacb270c037df3') in 0.000324429 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+

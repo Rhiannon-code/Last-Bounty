@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a02c4d573e9c8aa829bda24c2846058f, type: 3}
+  m_Name: Bounty_CabelNine
+  m_EditorClassIdentifier: FPSParkour.Bounty::FPSParkour.Bounty.BountyContract
+  id: bounty.cabel.nine
+  targetName: CABEL NINE
+  alias: THE MONSTROUS
+  species: Sivet
+  issuingFactionId: guild
+  charges: Trafficking.
+  whoTheyActuallyAre: 'He is the supply side of Bad Paper. For a cut, he will put
+    any name on any board, and he has done it four hundred times, and he has never
+    once met a single one of them.
+
+
+    When beaten: "I only fill in forms."'
+  payoutAlive: 3900
+  availability:
+    RequireAll: []
+    RequireNone: []
+    RequireAny: []
+  flagsOnCapture: []
+  flagsOnKill: []
+  flagsOnRelease: []
+  standingOnCapture: 3
+  standingOnKill: 1
+  standingOnRelease: -2

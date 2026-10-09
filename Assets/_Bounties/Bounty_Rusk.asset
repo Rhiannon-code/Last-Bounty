@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a02c4d573e9c8aa829bda24c2846058f, type: 3}
+  m_Name: Bounty_Rusk
+  m_EditorClassIdentifier: FPSParkour.Bounty::FPSParkour.Bounty.BountyContract
+  id: bounty.rusk
+  targetName: RUSK
+  alias: THE DUAT-BORN
+  species: Duat-born
+  issuingFactionId: guild
+  charges: Smuggling. Three counts.
+  whoTheyActuallyAre: "Accurate. He's Undertow-adjacent, unsentimental, and good
+    at it.\n\nWhen beaten: \"Fine. Fine. Just \u2014 not up. Anything but up. Shoot
+    me, I'm asking you to shoot me\u2014\""
+  payoutAlive: 2900
+  availability:
+    RequireAll: []
+    RequireNone: []
+    RequireAny: []
+  flagsOnCapture: []
+  flagsOnKill: []
+  flagsOnRelease: []
+  standingOnCapture: 3
+  standingOnKill: 1
+  standingOnRelease: -2

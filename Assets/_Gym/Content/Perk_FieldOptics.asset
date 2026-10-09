@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6e1779a4275a1059c9f1949f5a87f4, type: 3}
+  m_Name: Perk_FieldOptics
+  m_EditorClassIdentifier: FPSParkour.Perks::FPSParkour.Perks.PerkDefinition
+  displayName: Field Optics
+  description: Reads a stranger's marks off a crowd at range. Without it you are
+    asking, not looking.
+  icon: {fileID: 0}
+  category: 3
+  cost: 1
+  tier: 0
+  prerequisites: []
+  effects:
+  - kind: 0
+    ability: 11
+    playerStat: 0
+    weaponStat: 0
+    op: 1
+    value: 0.1
+  - kind: 1
+    ability: 0
+    playerStat: 12
+    weaponStat: 0
+    op: 1
+    value: 0.25

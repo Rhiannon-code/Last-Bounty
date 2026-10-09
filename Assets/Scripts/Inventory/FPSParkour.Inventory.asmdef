@@ -1,0 +1,17 @@
+{
+    "name": "FPSParkour.Inventory",
+    "rootNamespace": "FPSParkour.Inventory",
+    "references": [
+        "FPSParkour.Core",
+        "FPSParkour.Player"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

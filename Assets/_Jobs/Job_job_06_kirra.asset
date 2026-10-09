@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 370ffa92ab89a77cd8ea4f566c8f5051, type: 3}
+  m_Name: Job_job_06_kirra
+  m_EditorClassIdentifier: FPSParkour.Jobs::FPSParkour.Jobs.JobDefinition
+  id: job.06.kirra
+  title: 'Capstone: Vosk Kirra'
+  shape: 0
+  contract: {fileID: 11400000, guid: 97045b3fa00888c9b9bf94ab8f61b476, type: 2}
+  briefing: 'Nine counts on the board. Considerably more than nine in fact.
+
+    He
+    is right about one thing: nobody ever kills him. There is no money in it.'
+  showcases: every system in one contract
+  objectives:
+  - Kind: 1
+    Description: Build the dossier
+    Amount: 3
+    Hint: 
+  - Kind: 2
+    Description: Identify Kirra
+    Amount: 0
+    Hint: 
+  - Kind: 3
+    Description: He runs. Everyone runs.
+    Amount: 0
+    Hint: 
+  - Kind: 4
+    Description: Cut him off from above
+    Amount: 18
+    Hint: 
+  - Kind: 6
+    Description: Put him down
+    Amount: 0
+    Hint: 
+  - Kind: 7
+    Description: Close the contract
+    Amount: 0
+    Hint: 
+  failsOn: 2
+  targetMarks:
+  - Slot: 0
+    Value: threl
+  - Slot: 1
+    Value: heavy
+  - Slot: 2
+    Value: sump rig
+  - Slot: 3
+    Value: arc coat
+  knownAtStart: 00000000
+  minimumMarksToAccuse: 2
+  availability:
+    RequireAll: []
+    RequireNone: []
+    RequireAny: []
+  flagsOnComplete: []

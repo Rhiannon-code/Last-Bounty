@@ -1,0 +1,28 @@
+{
+    "name": "FPSParkour.Gym",
+    "rootNamespace": "FPSParkour.Gym",
+    "references": [
+        "FPSParkour.Core",
+        "FPSParkour.Config",
+        "FPSParkour.Player",
+        "FPSParkour.Perks",
+        "FPSParkour.Movement",
+        "FPSParkour.Combat",
+        "FPSParkour.AI",
+        "FPSParkour.Investigation",
+        "FPSParkour.Bounty",
+        "FPSParkour.Narrative",
+        "FPSParkour.Save",
+        "Unity.InputSystem",
+        "UnityEngine.UI"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

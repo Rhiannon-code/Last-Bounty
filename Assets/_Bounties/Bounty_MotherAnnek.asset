@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a02c4d573e9c8aa829bda24c2846058f, type: 3}
+  m_Name: Bounty_MotherAnnek
+  m_EditorClassIdentifier: FPSParkour.Bounty::FPSParkour.Bounty.BountyContract
+  id: bounty.mother.annek
+  targetName: MOTHER ANNEK
+  alias: THE DUAT-BORN
+  species: Duat-born
+  issuingFactionId: guild
+  charges: Harbouring. Refusing to surrender a tenant.
+  whoTheyActuallyAre: 'She runs a boarding house four generations old and would not
+    give up a lodger. Her family has been in that building longer than most species
+    in this city have been in it.
+
+
+    When beaten: "I''ve never been anywhere.
+    Do you understand? Nowhere. This building is all of it."'
+  payoutAlive: 1400
+  availability:
+    RequireAll: []
+    RequireNone: []
+    RequireAny: []
+  flagsOnCapture: []
+  flagsOnKill: []
+  flagsOnRelease: []
+  standingOnCapture: 3
+  standingOnKill: 1
+  standingOnRelease: -2

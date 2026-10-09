@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a02c4d573e9c8aa829bda24c2846058f, type: 3}
+  m_Name: Bounty_TheArithmetician
+  m_EditorClassIdentifier: FPSParkour.Bounty::FPSParkour.Bounty.BountyContract
+  id: bounty.the.arithmetician
+  targetName: THE ARITHMETICIAN
+  alias: THE ONES WHO KNOW
+  species: species unrecorded
+  issuingFactionId: guild
+  charges: Harassment.
+  whoTheyActuallyAre: 'She stands outside guild halls with a running total of everyone
+    taken this year. She updates it daily. It is correct.
+
+
+    When beaten: "Nine
+    hundred and four, this year. Ask me next week and it''ll be more. It''s always
+    more."'
+  payoutAlive: 1700
+  availability:
+    RequireAll: []
+    RequireNone: []
+    RequireAny: []
+  flagsOnCapture: []
+  flagsOnKill: []
+  flagsOnRelease: []
+  standingOnCapture: 3
+  standingOnKill: 1
+  standingOnRelease: -2

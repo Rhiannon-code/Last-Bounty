@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ecbfe5667e08cfa3be0ff3d1f4c1c89, type: 3}
+  m_Name: Weapon_BoltThrower
+  m_EditorClassIdentifier: FPSParkour.Combat::FPSParkour.Combat.WeaponDefinition
+  displayName: Bolt Thrower
+  icon: {fileID: 0}
+  item: {fileID: 11400000, guid: 55cda237ca941ae6d9a464bfbdfd5fdc, type: 2}
+  fireMode: 0
+  weaponClass: 1
+  fireRate: 2
+  burstCount: 3
+  pellets: 1
+  damage: 55
+  damageType: 1
+  range: 120
+  magSize: 6
+  maxReserve: 48
+  reloadTime: 2.4
+  autoReloadWhenEmpty: 1
+  hipSpread: 3
+  aimSpread: 0.3
+  recoilPitch: 1.2
+  recoilYaw: 0.4
+  aimFovOffset: -20
+  aimLerpSpeed: 12
+  projectilePrefab: {fileID: 4370657534997003774, guid: 03e4932b76ef8267f9721c2588ab7a23, type: 3}
+  projectileSpeed: 45
+  gravityScale: 1
+  drag: 0.03
+  inheritShooterVelocity: 0.4
+  viewModelPrefab: {fileID: 0}
+  muzzleFlashPrefab: {fileID: 0}
+  impactPrefab: {fileID: 0}
+  hitMask:
+    serializedVersion: 2
+    m_Bits: 4294967295

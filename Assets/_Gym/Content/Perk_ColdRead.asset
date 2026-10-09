@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6e1779a4275a1059c9f1949f5a87f4, type: 3}
+  m_Name: Perk_ColdRead
+  m_EditorClassIdentifier: FPSParkour.Perks::FPSParkour.Perks.PerkDefinition
+  displayName: Cold Read
+  description: Work a whole square without anyone deciding you are working it.
+  icon: {fileID: 0}
+  category: 3
+  cost: 3
+  tier: 2
+  prerequisites:
+  - {fileID: 11400000, guid: 75c04a93b7b313c6e94901b7fbe75fab, type: 2}
+  - {fileID: 11400000, guid: 899aac612123ac12fbddf237d4b1d0cf, type: 2}
+  effects:
+  - kind: 1
+    ability: 0
+    playerStat: 16
+    weaponStat: 0
+    op: 2
+    value: 0.55
+  - kind: 1
+    ability: 0
+    playerStat: 12
+    weaponStat: 0
+    op: 1
+    value: 0.4

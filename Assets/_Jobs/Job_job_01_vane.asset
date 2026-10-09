@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 370ffa92ab89a77cd8ea4f566c8f5051, type: 3}
+  m_Name: Job_job_01_vane
+  m_EditorClassIdentifier: FPSParkour.Jobs::FPSParkour.Jobs.JobDefinition
+  id: job.01.vane
+  title: 'Skim job: Teddy Vane'
+  shape: 0
+  contract: {fileID: 11400000, guid: 636b9cb44542c5bdf94de33f77798a2c, type: 2}
+  briefing: 'Petty theft. The board wants him alive and nobody is in a hurry.
+
+    He
+    is in a crowd and he does not know you are looking yet.'
+  showcases: scanner, informants, heat, flee AI, snare, resolution
+  objectives:
+  - Kind: 0
+    Description: Scan anyone in the crowd
+    Amount: 0
+    Hint: Hold the scan key on a stranger. It compares them against what the contract
+      already told you.
+  - Kind: 1
+    Description: Buy a second mark from a local
+    Amount: 2
+    Hint: Most passers-by know nothing. Informants want money or pressure.
+  - Kind: 2
+    Description: Detain the man who matches
+    Amount: 0
+    Hint: Scan before you accuse. A civilian can match every mark you know.
+  - Kind: 3
+    Description: Keep up when he runs
+    Amount: 0
+    Hint: 
+  - Kind: 6
+    Description: Put him down
+    Amount: 0
+    Hint: The snare roots without hurting. Shooting works, and costs you half the
+      fee.
+  - Kind: 7
+    Description: Close the contract
+    Amount: 0
+    Hint: 
+  failsOn: 0
+  targetMarks:
+  - Slot: 0
+    Value: duat-born
+  - Slot: 1
+    Value: slight
+  - Slot: 2
+    Value: ledger cuff
+  - Slot: 3
+    Value: transit weave
+  knownAtStart: 00000000
+  minimumMarksToAccuse: 2
+  availability:
+    RequireAll: []
+    RequireNone: []
+    RequireAny: []
+  flagsOnComplete: []

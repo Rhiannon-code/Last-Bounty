@@ -1,0 +1,37 @@
+{
+    "name": "FPSParkour.Editor",
+    "rootNamespace": "FPSParkour.EditorTools",
+    "references": [
+        "FPSParkour.Core",
+        "FPSParkour.Config",
+        "FPSParkour.Player",
+        "FPSParkour.Inventory",
+        "FPSParkour.Combat",
+        "FPSParkour.Movement",
+        "FPSParkour.Perks",
+        "FPSParkour.Narrative",
+        "FPSParkour.AI",
+        "FPSParkour.Bounty",
+        "FPSParkour.Save",
+        "FPSParkour.World",
+        "FPSParkour.UI",
+        "FPSParkour.Gym",
+        "FPSParkour.Investigation",
+        "FPSParkour.Jobs",
+        "FPSParkour.Presentation",
+        "Unity.InputSystem",
+        "UnityEngine.UI",
+        "Unity.AI.Navigation"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
